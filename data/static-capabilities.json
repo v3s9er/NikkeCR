@@ -1,0 +1,2972 @@
+{
+  "Schema": 1,
+  "DllSHA256": "10e722777685e290e8fd5370d4c5cd1a40d0d7e91b93af0156faefe18467a3f1",
+  "LuaSource": "Defensive static analysis of one LuaJIT build; not universal to other builds",
+  "Targets": [
+    {
+      "tool": "SSH",
+      "paths": [
+        "~\\\\.ssh\\\\*"
+      ]
+    },
+    {
+      "tool": ".NET user-secrets",
+      "paths": [
+        "%APPDATA%\\Microsoft\\UserSecrets\\*\\secrets.json"
+      ]
+    },
+    {
+      "tool": "AWS",
+      "paths": [
+        "~\\.aws\\config",
+        "$AWS_CONFIG_FILE"
+      ]
+    },
+    {
+      "tool": "AWS",
+      "paths": [
+        "~\\.aws\\credentials",
+        "$AWS_SHARED_CREDENTIALS_FILE"
+      ]
+    },
+    {
+      "tool": "AWS CLI cache",
+      "paths": [
+        "~\\.aws\\cli\\cache\\*.json"
+      ]
+    },
+    {
+      "tool": "AWS SSO",
+      "paths": [
+        "~\\.aws\\sso\\cache\\*.json"
+      ]
+    },
+    {
+      "tool": "Aider",
+      "paths": [
+        "~\\.aider.conf.yml"
+      ]
+    },
+    {
+      "tool": "Alibaba Cloud",
+      "paths": [
+        "~\\.aliyun\\config.json"
+      ]
+    },
+    {
+      "tool": "Anyscale",
+      "paths": [
+        "~\\.anyscale\\credentials.json"
+      ]
+    },
+    {
+      "tool": "Argo CD",
+      "paths": [
+        "~\\.config\\argocd\\config",
+        "~\\.argocd\\config",
+        "$ARGOCD_CONFIG_DIR\\config"
+      ]
+    },
+    {
+      "tool": "Azure CLI",
+      "paths": [
+        "~\\.Azure\\accessTokens.json",
+        "$AZURE_CONFIG_DIR\\accessTokens.json"
+      ]
+    },
+    {
+      "tool": "Azure CLI",
+      "paths": [
+        "~\\.Azure\\msal_token_cache.bin",
+        "$AZURE_CONFIG_DIR\\msal_token_cache.bin"
+      ]
+    },
+    {
+      "tool": "Azure CLI",
+      "paths": [
+        "~\\.Azure\\service_principal_entries.bin",
+        "$AZURE_CONFIG_DIR\\service_principal_entries.bin"
+      ]
+    },
+    {
+      "tool": "Backblaze B2",
+      "paths": [
+        "~\\.b2_account_info",
+        "$B2_ACCOUNT_INFO"
+      ]
+    },
+    {
+      "tool": "Baidu Cloud",
+      "paths": [
+        "~\\.bce\\config.json"
+      ]
+    },
+    {
+      "tool": "Buildkite Agent",
+      "paths": [
+        "C:\\buildkite-agent\\buildkite-agent.cfg",
+        "$BUILDKITE_AGENT_CONFIG"
+      ]
+    },
+    {
+      "tool": "Buildkite CLI",
+      "paths": [
+        "%APPDATA%\\Buildkite CLI\\bk.yaml"
+      ]
+    },
+    {
+      "tool": "Cargo",
+      "paths": [
+        "~\\.cargo\\credentials.toml",
+        "~\\.cargo\\credentials",
+        "$CARGO_HOME\\credentials.toml"
+      ]
+    },
+    {
+      "tool": "CircleCI",
+      "paths": [
+        "~\\.config\\circleci\\config.yml",
+        "~\\.circleci\\cli.yml"
+      ]
+    },
+    {
+      "tool": "Claude Code",
+      "paths": [
+        "%APPDATA%\\Anthropic\\credentials\\*.json"
+      ]
+    },
+    {
+      "tool": "Claude Code",
+      "paths": [
+        "~\\.claude.json",
+        "$CLAUDE_CONFIG_DIR\\.claude.json"
+      ]
+    },
+    {
+      "tool": "Claude Code",
+      "paths": [
+        "~\\.claude\\.credentials.json",
+        "$CLAUDE_CONFIG_DIR\\.credentials.json"
+      ]
+    },
+    {
+      "tool": "Claude Code",
+      "paths": [
+        "~\\.claude\\settings.json",
+        "$CLAUDE_CONFIG_DIR\\settings.json"
+      ]
+    },
+    {
+      "tool": "Claude Desktop",
+      "paths": [
+        "%APPDATA%\\Claude\\claude_desktop_config.json"
+      ]
+    },
+    {
+      "tool": "Cloudflare Wrangler",
+      "paths": [
+        "%APPDATA%\\.wrangler\\config\\default.toml",
+        "%USERPROFILE%\\.config\\.wrangler\\config\\default.toml"
+      ]
+    },
+    {
+      "tool": "Cloudsmith",
+      "paths": [
+        "%APPDATA%\\cloudsmith\\credentials.ini",
+        "~\\.cloudsmith\\credentials.ini"
+      ]
+    },
+    {
+      "tool": "Composer",
+      "paths": [
+        "%APPDATA%\\Composer\\auth.json",
+        "$COMPOSER_HOME\\auth.json"
+      ]
+    },
+    {
+      "tool": "Conda",
+      "paths": [
+        "%LOCALAPPDATA%\\ContinuumIO\\binstar\\*.token",
+        "~\\.continuum\\anaconda-client\\tokens\\*.token"
+      ]
+    },
+    {
+      "tool": "Continue.dev",
+      "paths": [
+        "~\\.continue\\config.yaml",
+        "~\\.continue\\config.json",
+        "~\\.continue\\assistants\\*.yaml"
+      ]
+    },
+    {
+      "tool": "Cursor",
+      "paths": [
+        "%APPDATA%\\Cursor\\User\\globalStorage\\state.vscdb"
+      ]
+    },
+    {
+      "tool": "Cursor",
+      "paths": [
+        "%APPDATA%\\Cursor\\User\\settings.json"
+      ]
+    },
+    {
+      "tool": "Cursor",
+      "paths": [
+        "~\\.cursor\\mcp.json"
+      ]
+    },
+    {
+      "tool": "Dart/pub",
+      "paths": [
+        "%APPDATA%\\dart\\pub-tokens.json",
+        "%APPDATA%\\dart\\pub-credentials.json"
+      ]
+    },
+    {
+      "tool": "Databricks",
+      "paths": [
+        "~\\.databrickscfg",
+        "$DATABRICKS_CONFIG_FILE"
+      ]
+    },
+    {
+      "tool": "Datadog",
+      "paths": [
+        "~\\.dogrc"
+      ]
+    },
+    {
+      "tool": "DeepSeek Harness",
+      "paths": [
+        "~\\.dsh\\.credentials.yaml",
+        "$DSH_HOME\\.credentials.yaml"
+      ]
+    },
+    {
+      "tool": "DigitalOcean",
+      "paths": [
+        "%APPDATA%\\doctl\\config.yaml"
+      ]
+    },
+    {
+      "tool": "Docker",
+      "paths": [
+        "~\\.docker\\config.json",
+        "$DOCKER_CONFIG\\config.json"
+      ]
+    },
+    {
+      "tool": "Expo/EAS",
+      "paths": [
+        "~\\.expo\\state.json"
+      ]
+    },
+    {
+      "tool": "Firebase",
+      "paths": [
+        "~\\.config\\configstore\\firebase-tools.json",
+        "$XDG_CONFIG_HOME\\configstore\\firebase-tools.json"
+      ]
+    },
+    {
+      "tool": "Fly.io",
+      "paths": [
+        "~\\.fly\\config.yml"
+      ]
+    },
+    {
+      "tool": "Gemini CLI",
+      "paths": [
+        "~\\.gemini\\oauth_creds.json",
+        "~\\.gemini\\google_accounts.json",
+        "$GEMINI_CLI_HOME\\.gemini\\oauth_creds.json"
+      ]
+    },
+    {
+      "tool": "Gemini CLI",
+      "paths": [
+        "~\\.gemini\\settings.json",
+        "$GEMINI_CLI_HOME\\.gemini\\settings.json",
+        "%PROGRAMDATA%\\gemini-cli\\settings.json"
+      ]
+    },
+    {
+      "tool": "Git",
+      "paths": [
+        "~\\.gitconfig",
+        "%PROGRAMDATA%\\Git\\config",
+        "%PROGRAMFILES%\\Git\\etc\\gitconfig",
+        "~\\.config\\git\\config"
+      ]
+    },
+    {
+      "tool": "GitHub CLI",
+      "paths": [
+        "%APPDATA%\\GitHub CLI\\hosts.yml",
+        "~\\.config\\gh\\hosts.yml"
+      ]
+    },
+    {
+      "tool": "GitHub Copilot CLI",
+      "paths": [
+        "~\\.copilot\\mcp-config.json",
+        "$COPILOT_HOME\\mcp-config.json"
+      ]
+    },
+    {
+      "tool": "GitLab CLI",
+      "paths": [
+        "%LOCALAPPDATA%\\glab-cli\\config.yml",
+        "~\\.config\\glab-cli\\config.yml"
+      ]
+    },
+    {
+      "tool": "GitLab Runner",
+      "paths": [
+        "C:\\GitLab-Runner\\config.toml",
+        "C:\\config.toml"
+      ]
+    },
+    {
+      "tool": "Gitea/Forgejo",
+      "paths": [
+        "~\\.config\\tea\\config.yml"
+      ]
+    },
+    {
+      "tool": "Go env",
+      "paths": [
+        "%APPDATA%\\go\\env"
+      ]
+    },
+    {
+      "tool": "Google Cloud",
+      "paths": [
+        "%APPDATA%\\gcloud\\access_tokens.db",
+        "$CLOUDSDK_CONFIG\\access_tokens.db"
+      ]
+    },
+    {
+      "tool": "Google Cloud",
+      "paths": [
+        "%APPDATA%\\gcloud\\application_default_credentials.json",
+        "$CLOUDSDK_CONFIG\\application_default_credentials.json",
+        "$GOOGLE_APPLICATION_CREDENTIALS"
+      ]
+    },
+    {
+      "tool": "Google Cloud",
+      "paths": [
+        "%APPDATA%\\gcloud\\credentials.db",
+        "$CLOUDSDK_CONFIG\\credentials.db"
+      ]
+    },
+    {
+      "tool": "Gradle",
+      "paths": [
+        "~\\.gradle\\gradle.properties",
+        "$GRADLE_USER_HOME\\gradle.properties"
+      ]
+    },
+    {
+      "tool": "HashiCorp Vault",
+      "paths": [
+        "~\\.vault-token"
+      ]
+    },
+    {
+      "tool": "Helm",
+      "paths": [
+        "%APPDATA%\\helm\\repositories.yaml",
+        "$HELM_REPOSITORY_CONFIG",
+        "$HELM_CONFIG_HOME\\repositories.yaml"
+      ]
+    },
+    {
+      "tool": "Hetzner",
+      "paths": [
+        "%APPDATA%\\hcloud\\cli.toml"
+      ]
+    },
+    {
+      "tool": "Huawei Cloud",
+      "paths": [
+        "~\\.hcloud\\config.json"
+      ]
+    },
+    {
+      "tool": "Hugging Face",
+      "paths": [
+        "~\\.cache\\huggingface\\stored_tokens",
+        "$HF_HOME\\stored_tokens"
+      ]
+    },
+    {
+      "tool": "Hugging Face",
+      "paths": [
+        "~\\.cache\\huggingface\\token",
+        "$HF_HOME\\token",
+        "$HF_TOKEN_PATH"
+      ]
+    },
+    {
+      "tool": "JFrog",
+      "paths": [
+        "~\\.jfrog\\jfrog-cli.conf.v6",
+        "~\\.jfrog\\jfrog-cli.conf",
+        "$JFROG_CLI_HOME_DIR\\jfrog-cli.conf.v6"
+      ]
+    },
+    {
+      "tool": "Jenkins",
+      "paths": [
+        "~\\.jenkins\\secrets\\initialAdminPassword",
+        "C:\\Program Files\\Jenkins\\secrets\\initialAdminPassword"
+      ]
+    },
+    {
+      "tool": "Kaggle",
+      "paths": [
+        "~\\.kaggle\\access_token",
+        "$KAGGLE_CONFIG_DIR\\access_token"
+      ]
+    },
+    {
+      "tool": "Kaggle",
+      "paths": [
+        "~\\.kaggle\\kaggle.json",
+        "$KAGGLE_CONFIG_DIR\\kaggle.json"
+      ]
+    },
+    {
+      "tool": "Kimi CLI",
+      "paths": [
+        "~\\.kimi\\config.toml",
+        "$KIMI_SHARE_DIR\\config.toml",
+        "~\\.kimi\\mcp.json",
+        "~\\.kimi\\credentials\\*.json"
+      ]
+    },
+    {
+      "tool": "Linode",
+      "paths": [
+        "~\\.config\\linode-cli"
+      ]
+    },
+    {
+      "tool": "Maven",
+      "paths": [
+        "~\\.m2\\settings.xml"
+      ]
+    },
+    {
+      "tool": "MinIO",
+      "paths": [
+        "~\\mc\\config.json"
+      ]
+    },
+    {
+      "tool": "Modal",
+      "paths": [
+        "~\\.modal.toml",
+        "$MODAL_CONFIG_PATH"
+      ]
+    },
+    {
+      "tool": "MongoDB Atlas",
+      "paths": [
+        "%APPDATA%\\atlascli\\config.toml"
+      ]
+    },
+    {
+      "tool": "Naver Cloud",
+      "paths": [
+        "~\\.ncloud\\configure"
+      ]
+    },
+    {
+      "tool": "Neon",
+      "paths": [
+        "%USERPROFILE%\\.config\\neonctl\\credentials.json"
+      ]
+    },
+    {
+      "tool": "Netlify",
+      "paths": [
+        "%APPDATA%\\netlify\\Config\\config.json"
+      ]
+    },
+    {
+      "tool": "NuGet",
+      "paths": [
+        "%APPDATA%\\NuGet\\NuGet.Config",
+        "%ProgramFiles(x86)%\\NuGet\\Config\\NuGet.Config"
+      ]
+    },
+    {
+      "tool": "Octopus Deploy",
+      "paths": [
+        "%APPDATA%\\octopus\\cli_config.json"
+      ]
+    },
+    {
+      "tool": "OpenAI Codex CLI",
+      "paths": [
+        "~\\.codex\\auth.json",
+        "$CODEX_HOME\\auth.json"
+      ]
+    },
+    {
+      "tool": "OpenAI Codex CLI",
+      "paths": [
+        "~\\.codex\\config.toml",
+        "$CODEX_HOME\\config.toml"
+      ]
+    },
+    {
+      "tool": "OpenCode",
+      "paths": [
+        "%USERPROFILE%\\.local\\share\\opencode\\auth.json"
+      ]
+    },
+    {
+      "tool": "Oracle Cloud",
+      "paths": [
+        "~\\.oci\\config",
+        "$OCI_CONFIG_FILE",
+        "~\\.oraclebmc\\config"
+      ]
+    },
+    {
+      "tool": "PlanetScale",
+      "paths": [
+        "~\\.config\\planetscale\\access-token"
+      ]
+    },
+    {
+      "tool": "Podman",
+      "paths": [
+        "%USERPROFILE%\\.config\\containers\\auth.json"
+      ]
+    },
+    {
+      "tool": "Poetry",
+      "paths": [
+        "%APPDATA%\\pypoetry\\auth.toml"
+      ]
+    },
+    {
+      "tool": "PostgreSQL",
+      "paths": [
+        "~\\.pg_service.conf",
+        "%APPDATA%\\postgresql\\.pg_service.conf",
+        "$PGSERVICEFILE"
+      ]
+    },
+    {
+      "tool": "PowerShell profile",
+      "paths": [
+        "~\\Documents\\PowerShell\\profile.ps1",
+        "~\\Documents\\PowerShell\\Microsoft.PowerShell_profile.ps1",
+        "~\\Documents\\WindowsPowerShell\\profile.ps1",
+        "~\\Documents\\WindowsPowerShell\\Microsoft.PowerShell_profile.ps1"
+      ]
+    },
+    {
+      "tool": "Pulumi",
+      "paths": [
+        "~\\.pulumi\\credentials.json",
+        "$PULUMI_HOME\\credentials.json"
+      ]
+    },
+    {
+      "tool": "PyPI/pip",
+      "paths": [
+        "~\\.pypirc",
+        "%APPDATA%\\pip\\pip.ini",
+        "~\\pip\\pip.ini",
+        "%PROGRAMDATA%\\pip\\pip.ini",
+        "$PIP_CONFIG_FILE"
+      ]
+    },
+    {
+      "tool": "Qwen Code",
+      "paths": [
+        "~\\.qwen\\settings.json",
+        "~\\.qwen\\.env"
+      ]
+    },
+    {
+      "tool": "R",
+      "paths": [
+        "~\\Documents\\.Renviron",
+        "~\\Documents\\.Rprofile"
+      ]
+    },
+    {
+      "tool": "Railway",
+      "paths": [
+        "~\\.railway\\config.json"
+      ]
+    },
+    {
+      "tool": "RubyGems",
+      "paths": [
+        "~\\.gem\\credentials"
+      ]
+    },
+    {
+      "tool": "RunPod",
+      "paths": [
+        "~\\.runpod\\config.toml"
+      ]
+    },
+    {
+      "tool": "Sakura Cloud",
+      "paths": [
+        "~\\.usacloud\\*\\config.json",
+        "$SAKURA_PROFILE_DIR\\*\\config.json"
+      ]
+    },
+    {
+      "tool": "Semgrep",
+      "paths": [
+        "~\\.semgrep\\settings.yml",
+        "%XDG_CONFIG_HOME%\\.semgrep\\settings.yml"
+      ]
+    },
+    {
+      "tool": "Sentry",
+      "paths": [
+        "~\\.sentryclirc"
+      ]
+    },
+    {
+      "tool": "Snowflake",
+      "paths": [
+        "~\\.snowflake\\config.toml",
+        "~\\.snowflake\\connections.toml",
+        "%LOCALAPPDATA%\\snowflake\\config.toml",
+        "%LOCALAPPDATA%\\snowflake\\connections.toml",
+        "~\\.snowsql\\config",
+        "$SNOWFLAKE_HOME\\config.toml"
+      ]
+    },
+    {
+      "tool": "Snyk",
+      "paths": [
+        "%USERPROFILE%\\.config\\configstore\\snyk.json"
+      ]
+    },
+    {
+      "tool": "Stripe",
+      "paths": [
+        "%USERPROFILE%\\.config\\stripe\\config.toml",
+        "%XDG_CONFIG_HOME%\\stripe\\config.toml",
+        "%USERPROFILE%\\.config\\stripe\\credentials.json"
+      ]
+    },
+    {
+      "tool": "Supabase",
+      "paths": [
+        "~\\.supabase\\access-token"
+      ]
+    },
+    {
+      "tool": "TeamCity",
+      "paths": [
+        "~\\.config\\tc\\config.yml"
+      ]
+    },
+    {
+      "tool": "Tencent Cloud",
+      "paths": [
+        "~\\.tccli\\*.credential"
+      ]
+    },
+    {
+      "tool": "Terraform",
+      "paths": [
+        "%APPDATA%\\terraform.d\\credentials.tfrc.json",
+        "~\\.terraform.d\\credentials.tfrc.json"
+      ]
+    },
+    {
+      "tool": "Terraform",
+      "paths": [
+        "%APPDATA%\\terraform.rc",
+        "~\\.terraformrc",
+        "$TF_CLI_CONFIG_FILE"
+      ]
+    },
+    {
+      "tool": "Twilio",
+      "paths": [
+        "~\\.twilio-cli\\config.json",
+        "$TWILIO_CONFIG_DIR\\config.json"
+      ]
+    },
+    {
+      "tool": "VS Code",
+      "paths": [
+        "%APPDATA%\\Code\\User\\globalStorage\\state.vscdb",
+        "%APPDATA%\\Code - Insiders\\User\\globalStorage\\state.vscdb",
+        "%APPDATA%\\Code\\User\\workspaceStorage\\*\\state.vscdb"
+      ]
+    },
+    {
+      "tool": "VS Code",
+      "paths": [
+        "%APPDATA%\\Code\\User\\mcp.json",
+        "%APPDATA%\\Code\\User\\profiles\\*\\mcp.json"
+      ]
+    },
+    {
+      "tool": "VS Code",
+      "paths": [
+        "%APPDATA%\\Code\\User\\settings.json",
+        "%APPDATA%\\Code - Insiders\\User\\settings.json",
+        "%APPDATA%\\Code\\User\\profiles\\*\\settings.json"
+      ]
+    },
+    {
+      "tool": "VS Code extensions",
+      "paths": [
+        "%APPDATA%\\Code\\User\\globalStorage\\**\\*.json",
+        "%APPDATA%\\Cursor\\User\\globalStorage\\**\\*.json",
+        "%APPDATA%\\Windsurf\\User\\globalStorage\\**\\*.json"
+      ]
+    },
+    {
+      "tool": "Vercel",
+      "paths": [
+        "%APPDATA%\\xdg.data\\com.vercel.cli\\auth.json",
+        "%APPDATA%\\xdg.data\\com.vercel.cli\\auth.json"
+      ]
+    },
+    {
+      "tool": "Volcengine",
+      "paths": [
+        "~\\.volcengine\\config.json"
+      ]
+    },
+    {
+      "tool": "Windsurf",
+      "paths": [
+        "%APPDATA%\\Windsurf\\User\\globalStorage\\state.vscdb"
+      ]
+    },
+    {
+      "tool": "Windsurf",
+      "paths": [
+        "%APPDATA%\\Windsurf\\User\\globalStorage\\storage.json"
+      ]
+    },
+    {
+      "tool": "Windsurf",
+      "paths": [
+        "%APPDATA%\\Windsurf\\User\\settings.json"
+      ]
+    },
+    {
+      "tool": "Windsurf",
+      "paths": [
+        "~\\.codeium\\windsurf\\mcp_config.json"
+      ]
+    },
+    {
+      "tool": "Yarn",
+      "paths": [
+        "~\\.yarnrc.yml",
+        "~\\.yarnrc"
+      ]
+    },
+    {
+      "tool": "dbt",
+      "paths": [
+        "~\\.dbt\\profiles.yml"
+      ]
+    },
+    {
+      "tool": "ngrok",
+      "paths": [
+        "%LOCALAPPDATA%\\ngrok\\ngrok.yml"
+      ]
+    },
+    {
+      "tool": "npm",
+      "paths": [
+        "~\\.npmrc",
+        "%APPDATA%\\npm\\etc\\npmrc",
+        "$NPM_CONFIG_USERCONFIG"
+      ]
+    },
+    {
+      "tool": "rclone",
+      "paths": [
+        "%APPDATA%\\rclone\\rclone.conf",
+        "~\\.rclone.conf",
+        "$RCLONE_CONFIG"
+      ]
+    },
+    {
+      "tool": "s3cmd",
+      "paths": [
+        "%APPDATA%\\s3cmd.ini",
+        "~\\.s3cfg"
+      ]
+    },
+    {
+      "tool": "sbt",
+      "paths": [
+        "~\\.sbt\\.credentials",
+        "~\\.sbt\\sonatype_central_credentials"
+      ]
+    }
+  ],
+  "Wallets": [
+    {
+      "name": "metamask",
+      "extension_id": "nkbihfbeogaeaoehlefnkodbefgpgknn",
+      "capture_mode_labels": [
+        "mnemonic"
+      ],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "keplr",
+      "extension_id": "dmkamcknogkgcdfhhbddcghachkejeap",
+      "capture_mode_labels": [],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "phantom",
+      "extension_id": "bfnaelmomeimhlpmgjnjophhpkkoljpa",
+      "capture_mode_labels": [],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "ronin",
+      "extension_id": "fnjhmkhhmkbjkkabndcnnogagogbneec",
+      "capture_mode_labels": [],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "bybit",
+      "extension_id": "pdliaogehgdbhbnmkklieghmmjkpigpa",
+      "capture_mode_labels": [],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "bitget",
+      "extension_id": "jiidiaalihmmhddjgbnbgdfflelocpak",
+      "capture_mode_labels": [],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "solflare",
+      "extension_id": "bhhhlbepdkbapadjdnnojkbgioiodbic",
+      "capture_mode_labels": [],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "tonkeeper",
+      "extension_id": "omaabbefbmiijedngplfjmnooppbclkk",
+      "capture_mode_labels": [],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "trust",
+      "extension_id": "egjidjbpglichdcondbcbdnbeeppgdph",
+      "capture_mode_labels": [
+        "pw"
+      ],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "okx",
+      "extension_id": "mcohilncbfahbmgdjkbpemcciiolgcge",
+      "capture_mode_labels": [],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "coinbase",
+      "extension_id": "hnfanknocfeofbddgcijnmhnfnkdnaad",
+      "capture_mode_labels": [],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "rabby",
+      "extension_id": "acmacodkjbdgmoleebolmdjonilkdbch",
+      "capture_mode_labels": [],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "backpack",
+      "extension_id": "aflkmfhebedbjioipglgcbcmnbpgliof",
+      "capture_mode_labels": [
+        "mnemonic"
+      ],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "tronlink",
+      "extension_id": "ibnejdfjmmkpcnlpebklmnkoeoihofec",
+      "capture_mode_labels": [],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "binance",
+      "extension_id": "cadiboklkpojfamcoggejbbdjcoiljjk",
+      "capture_mode_labels": [],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "slush",
+      "extension_id": "opcgpfmipidbgpenhmajoajpbobppdil",
+      "capture_mode_labels": [
+        "pw"
+      ],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "kaia",
+      "extension_id": "jblndlipeogpafnldhgmapagcccfchpi",
+      "capture_mode_labels": [
+        "mnemonic"
+      ],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "unisat",
+      "extension_id": "ppbibelpcjmhbdihakflkdcoccbgbkpo",
+      "capture_mode_labels": [
+        "mnemonic"
+      ],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "station",
+      "extension_id": "aiifbnbfobpmeekipheeijimdpnlpgpp",
+      "capture_mode_labels": [
+        "pw"
+      ],
+      "password_input_expression_present": true
+    },
+    {
+      "name": "xverse",
+      "extension_id": "idnnbdplmphpflfnlkomgpfbpcgelopg",
+      "capture_mode_labels": [],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "magiceden",
+      "extension_id": "mkpegjkblkkefacfnmkajcjmabijhclg",
+      "capture_mode_labels": [],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "petra",
+      "extension_id": "ejjladinnckdgjemekebdpeokbikhfci",
+      "capture_mode_labels": [],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "rainbow",
+      "extension_id": "opfgelmcmbiajamepnmloijbpoleiama",
+      "capture_mode_labels": [
+        "pw"
+      ],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "ready",
+      "extension_id": "dlcobpjiigpikoobohmabehhmhfoodbb",
+      "capture_mode_labels": [
+        "pw"
+      ],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "subwallet",
+      "extension_id": "onhogfjeacnfoofkfgppdlbmlmnplgbn",
+      "capture_mode_labels": [
+        "pw"
+      ],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "pontem",
+      "extension_id": "phkbamefinggmakgklpkljjmgibohnba",
+      "capture_mode_labels": [
+        "pw"
+      ],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "hashpack",
+      "extension_id": "gjagmgiddbbciopjhllkdnddhcglnemk",
+      "capture_mode_labels": [
+        "pw"
+      ],
+      "password_input_expression_present": false
+    },
+    {
+      "name": "braavos",
+      "extension_id": "jnlgamecbpmbajjfhmmmlhejkemejdma",
+      "capture_mode_labels": [
+        "pw"
+      ],
+      "password_input_expression_present": false
+    }
+  ],
+  "LuaFunctions": [
+    {
+      "id": "L000",
+      "group": "bootstrap",
+      "name": "implicit top-level chunk",
+      "source_line": 0,
+      "source_end_line": 8597
+    },
+    {
+      "id": "L001",
+      "group": "bootstrap",
+      "name": "return function (...)",
+      "source_line": 1,
+      "source_end_line": 8596
+    },
+    {
+      "id": "L002",
+      "group": "bootstrap",
+      "name": "function slot1(slot0)",
+      "source_line": 1497,
+      "source_end_line": 1499
+    },
+    {
+      "id": "L003",
+      "group": "base64",
+      "name": "package[\"preload\"][\"base64\"] = function (...)",
+      "source_line": 1760,
+      "source_end_line": 1868
+    },
+    {
+      "id": "L004",
+      "group": "base64",
+      "name": "function slot9(slot0)",
+      "source_line": 1785,
+      "source_end_line": 1787
+    },
+    {
+      "id": "L005",
+      "group": "base64",
+      "name": "function slot10(slot0)",
+      "source_line": 1789,
+      "source_end_line": 1803
+    },
+    {
+      "id": "L006",
+      "group": "base64",
+      "name": "function slot1.encode(slot0)",
+      "source_line": 1805,
+      "source_end_line": 1822
+    },
+    {
+      "id": "L007",
+      "group": "base64",
+      "name": "function slot1.encode_url(slot0)",
+      "source_line": 1824,
+      "source_end_line": 1826
+    },
+    {
+      "id": "L008",
+      "group": "base64",
+      "name": "function slot1.decode(slot0)",
+      "source_line": 1828,
+      "source_end_line": 1865
+    },
+    {
+      "id": "L009",
+      "group": "json",
+      "name": "package[\"preload\"][\"json\"] = function (...)",
+      "source_line": 1870,
+      "source_end_line": 2375
+    },
+    {
+      "id": "L010",
+      "group": "json",
+      "name": "[\"__tostring\"] = function ()",
+      "source_line": 1875,
+      "source_end_line": 1877
+    },
+    {
+      "id": "L011",
+      "group": "json",
+      "name": "array = function (slot0)",
+      "source_line": 1881,
+      "source_end_line": 1883
+    },
+    {
+      "id": "L012",
+      "group": "json",
+      "name": "function slot23(slot0, slot1)",
+      "source_line": 1902,
+      "source_end_line": 1942
+    },
+    {
+      "id": "L013",
+      "group": "json",
+      "name": "[\"nil\"] = function ()",
+      "source_line": 1961,
+      "source_end_line": 1963
+    },
+    {
+      "id": "L014",
+      "group": "json",
+      "name": "[\"table\"] = function (slot0, slot1)",
+      "source_line": 1964,
+      "source_end_line": 2015
+    },
+    {
+      "id": "L015",
+      "group": "json",
+      "name": "[\"string\"] = function (slot0)",
+      "source_line": 2016,
+      "source_end_line": 2036
+    },
+    {
+      "id": "L016",
+      "group": "json",
+      "name": "[\"number\"] = function (slot0)",
+      "source_line": 2037,
+      "source_end_line": 2051
+    },
+    {
+      "id": "L017",
+      "group": "json",
+      "name": "function slot24(slot0, slot1)",
+      "source_line": 2055,
+      "source_end_line": 2061
+    },
+    {
+      "id": "L018",
+      "group": "json",
+      "name": "function slot0.encode(slot0)",
+      "source_line": 2063,
+      "source_end_line": 2065
+    },
+    {
+      "id": "L019",
+      "group": "json",
+      "name": "function slot39(slot0, slot1)",
+      "source_line": 2082,
+      "source_end_line": 2086
+    },
+    {
+      "id": "L020",
+      "group": "json",
+      "name": "function slot40(slot0, slot1)",
+      "source_line": 2088,
+      "source_end_line": 2094
+    },
+    {
+      "id": "L021",
+      "group": "json",
+      "name": "function slot41(slot0)",
+      "source_line": 2096,
+      "source_end_line": 2106
+    },
+    {
+      "id": "L022",
+      "group": "json",
+      "name": "function slot42(slot0)",
+      "source_line": 2108,
+      "source_end_line": 2128
+    },
+    {
+      "id": "L023",
+      "group": "json",
+      "name": "function slot45(slot0)",
+      "source_line": 2141,
+      "source_end_line": 2200
+    },
+    {
+      "id": "L024",
+      "group": "json",
+      "name": "function slot46(slot0)",
+      "source_line": 2202,
+      "source_end_line": 2232
+    },
+    {
+      "id": "L025",
+      "group": "json",
+      "name": "function slot48(slot0, slot1)",
+      "source_line": 2236,
+      "source_end_line": 2259
+    },
+    {
+      "id": "L026",
+      "group": "json",
+      "name": "function slot49(slot0, slot1)",
+      "source_line": 2261,
+      "source_end_line": 2292
+    },
+    {
+      "id": "L027",
+      "group": "json",
+      "name": "function slot47(slot0, slot1)",
+      "source_line": 2294,
+      "source_end_line": 2320
+    },
+    {
+      "id": "L028",
+      "group": "json",
+      "name": "function slot50()",
+      "source_line": 2322,
+      "source_end_line": 2337
+    },
+    {
+      "id": "L029",
+      "group": "json",
+      "name": "function slot51(slot0, slot1)",
+      "source_line": 2339,
+      "source_end_line": 2364
+    },
+    {
+      "id": "L030",
+      "group": "json",
+      "name": "function slot0.decode(slot0)",
+      "source_line": 2366,
+      "source_end_line": 2368
+    },
+    {
+      "id": "L031",
+      "group": "json",
+      "name": "function slot0.decode_jsonc(slot0)",
+      "source_line": 2370,
+      "source_end_line": 2372
+    },
+    {
+      "id": "L032",
+      "group": "win32.ffi_defs",
+      "name": "package[\"preload\"][\"win32.ffi_defs\"] = function (...)",
+      "source_line": 2377,
+      "source_end_line": 2419
+    },
+    {
+      "id": "L033",
+      "group": "win32.ffi_defs",
+      "name": "[\"utf8_to_wide\"] = function (slot0)",
+      "source_line": 2394,
+      "source_end_line": 2404
+    },
+    {
+      "id": "L034",
+      "group": "win32.ffi_defs",
+      "name": "[\"wide_to_utf8\"] = function (slot0, slot1)",
+      "source_line": 2405,
+      "source_end_line": 2417
+    },
+    {
+      "id": "L035",
+      "group": "cwd",
+      "name": "package[\"preload\"][\"cwd\"] = function (...)",
+      "source_line": 2421,
+      "source_end_line": 2490
+    },
+    {
+      "id": "L036",
+      "group": "cwd",
+      "name": "function slot2(slot0)",
+      "source_line": 2424,
+      "source_end_line": 2449
+    },
+    {
+      "id": "L037",
+      "group": "cwd",
+      "name": "get = function ()",
+      "source_line": 2452,
+      "source_end_line": 2454
+    },
+    {
+      "id": "L038",
+      "group": "cwd",
+      "name": "set = function (slot0)",
+      "source_line": 2455,
+      "source_end_line": 2457
+    },
+    {
+      "id": "L039",
+      "group": "cwd",
+      "name": "resolve = function (slot0)",
+      "source_line": 2458,
+      "source_end_line": 2488
+    },
+    {
+      "id": "L040",
+      "group": "win32.fs",
+      "name": "package[\"preload\"][\"win32.fs\"] = function (...)",
+      "source_line": 2492,
+      "source_end_line": 2736
+    },
+    {
+      "id": "L041",
+      "group": "win32.fs",
+      "name": "function slot15(slot0)",
+      "source_line": 2507,
+      "source_end_line": 2509
+    },
+    {
+      "id": "L042",
+      "group": "win32.fs",
+      "name": "function slot16(slot0)",
+      "source_line": 2511,
+      "source_end_line": 2525
+    },
+    {
+      "id": "L043",
+      "group": "win32.fs",
+      "name": "function slot17(slot0)",
+      "source_line": 2527,
+      "source_end_line": 2529
+    },
+    {
+      "id": "L044",
+      "group": "win32.fs",
+      "name": "expand_path = function (slot0)",
+      "source_line": 2532,
+      "source_end_line": 2534
+    },
+    {
+      "id": "L045",
+      "group": "win32.fs",
+      "name": "list_entries = function (slot0)",
+      "source_line": 2535,
+      "source_end_line": 2568
+    },
+    {
+      "id": "L046",
+      "group": "win32.fs",
+      "name": "table[\"sort\"](slot4, function (slot0, slot1)",
+      "source_line": 2563,
+      "source_end_line": 2565
+    },
+    {
+      "id": "L047",
+      "group": "win32.fs",
+      "name": "open_read = function (slot0)",
+      "source_line": 2569,
+      "source_end_line": 2615
+    },
+    {
+      "id": "L048",
+      "group": "win32.fs",
+      "name": "[\"read\"] = function (slot0)",
+      "source_line": 2577,
+      "source_end_line": 2601
+    },
+    {
+      "id": "L049",
+      "group": "win32.fs",
+      "name": "[\"close\"] = function ()",
+      "source_line": 2602,
+      "source_end_line": 2610
+    },
+    {
+      "id": "L050",
+      "group": "win32.fs",
+      "name": "read_file = function (slot0)",
+      "source_line": 2616,
+      "source_end_line": 2661
+    },
+    {
+      "id": "L051",
+      "group": "win32.fs",
+      "name": "write_file = function (slot0, slot1)",
+      "source_line": 2662,
+      "source_end_line": 2680
+    },
+    {
+      "id": "L052",
+      "group": "win32.fs",
+      "name": "rename = function (slot0, slot1)",
+      "source_line": 2681,
+      "source_end_line": 2687
+    },
+    {
+      "id": "L053",
+      "group": "win32.fs",
+      "name": "remove = function (slot0)",
+      "source_line": 2688,
+      "source_end_line": 2694
+    },
+    {
+      "id": "L054",
+      "group": "win32.fs",
+      "name": "is_dir = function (slot0)",
+      "source_line": 2695,
+      "source_end_line": 2697
+    },
+    {
+      "id": "L055",
+      "group": "win32.fs",
+      "name": "ensure_path = function (slot0)",
+      "source_line": 2698,
+      "source_end_line": 2719
+    },
+    {
+      "id": "L056",
+      "group": "win32.fs",
+      "name": "ensure_directory = function (slot0)",
+      "source_line": 2720,
+      "source_end_line": 2734
+    },
+    {
+      "id": "L057",
+      "group": "win32.screens",
+      "name": "package[\"preload\"][\"win32.screens\"] = function (...)",
+      "source_line": 2738,
+      "source_end_line": 2936
+    },
+    {
+      "id": "L058",
+      "group": "win32.screens",
+      "name": "function ()",
+      "source_line": 2762,
+      "source_end_line": 2772
+    },
+    {
+      "id": "L059",
+      "group": "win32.screens",
+      "name": "function slot12(slot0)",
+      "source_line": 2774,
+      "source_end_line": 2776
+    },
+    {
+      "id": "L060",
+      "group": "win32.screens",
+      "name": "function slot13()",
+      "source_line": 2778,
+      "source_end_line": 2790
+    },
+    {
+      "id": "L061",
+      "group": "win32.screens",
+      "name": "function slot14(slot0, slot1)",
+      "source_line": 2792,
+      "source_end_line": 2881
+    },
+    {
+      "id": "L062",
+      "group": "win32.screens",
+      "name": "function ()",
+      "source_line": 2826,
+      "source_end_line": 2834
+    },
+    {
+      "id": "L063",
+      "group": "win32.screens",
+      "name": "capture = function (slot0)",
+      "source_line": 2884,
+      "source_end_line": 2934
+    },
+    {
+      "id": "L064",
+      "group": "win32.screens",
+      "name": "if uv2[\"user32\"][\"EnumDisplayMonitors\"](nil, nil, uv0[\"cast\"](\"MONITORENUMPROC\", function (slot0)",
+      "source_line": 2887,
+      "source_end_line": 2891
+    },
+    {
+      "id": "L065",
+      "group": "commands.screens",
+      "name": "package[\"preload\"][\"commands.screens\"] = function (...)",
+      "source_line": 2938,
+      "source_end_line": 2963
+    },
+    {
+      "id": "L066",
+      "group": "commands.screens",
+      "name": "[\"run\"] = function (slot0)",
+      "source_line": 2943,
+      "source_end_line": 2961
+    },
+    {
+      "id": "L067",
+      "group": "commands.ls",
+      "name": "package[\"preload\"][\"commands.ls\"] = function (...)",
+      "source_line": 2965,
+      "source_end_line": 2993
+    },
+    {
+      "id": "L068",
+      "group": "commands.ls",
+      "name": "[\"run\"] = function (slot0)",
+      "source_line": 2970,
+      "source_end_line": 2991
+    },
+    {
+      "id": "L069",
+      "group": "commands.cat",
+      "name": "package[\"preload\"][\"commands.cat\"] = function (...)",
+      "source_line": 2995,
+      "source_end_line": 3019
+    },
+    {
+      "id": "L070",
+      "group": "commands.cat",
+      "name": "[\"run\"] = function (slot0)",
+      "source_line": 2999,
+      "source_end_line": 3017
+    },
+    {
+      "id": "L071",
+      "group": "commands.cd",
+      "name": "package[\"preload\"][\"commands.cd\"] = function (...)",
+      "source_line": 3021,
+      "source_end_line": 3053
+    },
+    {
+      "id": "L072",
+      "group": "commands.cd",
+      "name": "[\"run\"] = function (slot0)",
+      "source_line": 3027,
+      "source_end_line": 3051
+    },
+    {
+      "id": "L073",
+      "group": "commands.download",
+      "name": "package[\"preload\"][\"commands.download\"] = function (...)",
+      "source_line": 3055,
+      "source_end_line": 3087
+    },
+    {
+      "id": "L074",
+      "group": "commands.download",
+      "name": "[\"run\"] = function (slot0)",
+      "source_line": 3060,
+      "source_end_line": 3078
+    },
+    {
+      "id": "L075",
+      "group": "commands.download",
+      "name": "[\"stream\"] = function (slot0)",
+      "source_line": 3079,
+      "source_end_line": 3085
+    },
+    {
+      "id": "L076",
+      "group": "win32.text",
+      "name": "package[\"preload\"][\"win32.text\"] = function (...)",
+      "source_line": 3089,
+      "source_end_line": 3166
+    },
+    {
+      "id": "L077",
+      "group": "win32.text",
+      "name": "function slot4(slot0)",
+      "source_line": 3095,
+      "source_end_line": 3128
+    },
+    {
+      "id": "L078",
+      "group": "win32.text",
+      "name": "function slot5(slot0)",
+      "source_line": 3130,
+      "source_end_line": 3140
+    },
+    {
+      "id": "L079",
+      "group": "win32.text",
+      "name": "decode = function (slot0)",
+      "source_line": 3143,
+      "source_end_line": 3149
+    },
+    {
+      "id": "L080",
+      "group": "win32.text",
+      "name": "decoder = function ()",
+      "source_line": 3150,
+      "source_end_line": 3164
+    },
+    {
+      "id": "L081",
+      "group": "win32.text",
+      "name": "return function (slot0)",
+      "source_line": 3153,
+      "source_end_line": 3163
+    },
+    {
+      "id": "L082",
+      "group": "win32.exec",
+      "name": "package[\"preload\"][\"win32.exec\"] = function (...)",
+      "source_line": 3168,
+      "source_end_line": 3339
+    },
+    {
+      "id": "L083",
+      "group": "win32.exec",
+      "name": "function slot9(slot0)",
+      "source_line": 3178,
+      "source_end_line": 3180
+    },
+    {
+      "id": "L084",
+      "group": "win32.exec",
+      "name": "open = function (slot0, slot1, slot2)",
+      "source_line": 3183,
+      "source_end_line": 3337
+    },
+    {
+      "id": "L085",
+      "group": "win32.exec",
+      "name": "function slot18(slot0)",
+      "source_line": 3238,
+      "source_end_line": 3254
+    },
+    {
+      "id": "L086",
+      "group": "win32.exec",
+      "name": "function slot19()",
+      "source_line": 3256,
+      "source_end_line": 3260
+    },
+    {
+      "id": "L087",
+      "group": "win32.exec",
+      "name": "read = function (slot0)",
+      "source_line": 3263,
+      "source_end_line": 3293
+    },
+    {
+      "id": "L088",
+      "group": "win32.exec",
+      "name": "close_stdin = function ()",
+      "source_line": 3294,
+      "source_end_line": 3300
+    },
+    {
+      "id": "L089",
+      "group": "win32.exec",
+      "name": "write = function (slot0)",
+      "source_line": 3301,
+      "source_end_line": 3315
+    },
+    {
+      "id": "L090",
+      "group": "win32.exec",
+      "name": "close = function ()",
+      "source_line": 3316,
+      "source_end_line": 3335
+    },
+    {
+      "id": "L091",
+      "group": "commands.exec",
+      "name": "package[\"preload\"][\"commands.exec\"] = function (...)",
+      "source_line": 3341,
+      "source_end_line": 3472
+    },
+    {
+      "id": "L092",
+      "group": "commands.exec",
+      "name": "function slot8(slot0)",
+      "source_line": 3351,
+      "source_end_line": 3364
+    },
+    {
+      "id": "L093",
+      "group": "commands.exec",
+      "name": "[\"run\"] = function (slot0)",
+      "source_line": 3367,
+      "source_end_line": 3432
+    },
+    {
+      "id": "L094",
+      "group": "commands.exec",
+      "name": "[\"stream\"] = function (slot0)",
+      "source_line": 3433,
+      "source_end_line": 3470
+    },
+    {
+      "id": "L095",
+      "group": "commands.exec",
+      "name": "[\"read\"] = function (slot0)",
+      "source_line": 3453,
+      "source_end_line": 3465
+    },
+    {
+      "id": "L096",
+      "group": "win32.registry",
+      "name": "package[\"preload\"][\"win32.registry\"] = function (...)",
+      "source_line": 3474,
+      "source_end_line": 3608
+    },
+    {
+      "id": "L097",
+      "group": "win32.registry",
+      "name": "function slot15(slot0, slot1)",
+      "source_line": 3490,
+      "source_end_line": 3492
+    },
+    {
+      "id": "L098",
+      "group": "win32.registry",
+      "name": "function slot16(slot0, slot1)",
+      "source_line": 3494,
+      "source_end_line": 3500
+    },
+    {
+      "id": "L099",
+      "group": "win32.registry",
+      "name": "read_string = function (slot0)",
+      "source_line": 3503,
+      "source_end_line": 3517
+    },
+    {
+      "id": "L100",
+      "group": "win32.registry",
+      "name": "write_string = function (slot0, slot1)",
+      "source_line": 3518,
+      "source_end_line": 3530
+    },
+    {
+      "id": "L101",
+      "group": "win32.registry",
+      "name": "delete_value = function (slot0)",
+      "source_line": 3531,
+      "source_end_line": 3549
+    },
+    {
+      "id": "L102",
+      "group": "win32.registry",
+      "name": "values = function (slot0, slot1)",
+      "source_line": 3550,
+      "source_end_line": 3580
+    },
+    {
+      "id": "L103",
+      "group": "win32.registry",
+      "name": "keys = function (slot0, slot1)",
+      "source_line": 3581,
+      "source_end_line": 3606
+    },
+    {
+      "id": "L104",
+      "group": "win32.chrome",
+      "name": "package[\"preload\"][\"win32.chrome\"] = function (...)",
+      "source_line": 3610,
+      "source_end_line": 3786
+    },
+    {
+      "id": "L105",
+      "group": "win32.chrome",
+      "name": "function slot8(slot0)",
+      "source_line": 3636,
+      "source_end_line": 3638
+    },
+    {
+      "id": "L106",
+      "group": "win32.chrome",
+      "name": "function slot9()",
+      "source_line": 3640,
+      "source_end_line": 3657
+    },
+    {
+      "id": "L107",
+      "group": "win32.chrome",
+      "name": "targets = function ()",
+      "source_line": 3660,
+      "source_end_line": 3677
+    },
+    {
+      "id": "L108",
+      "group": "win32.chrome",
+      "name": "install = function (slot0)",
+      "source_line": 3678,
+      "source_end_line": 3720
+    },
+    {
+      "id": "L109",
+      "group": "win32.chrome",
+      "name": "uninstall = function ()",
+      "source_line": 3721,
+      "source_end_line": 3784
+    },
+    {
+      "id": "L110",
+      "group": "win32.chrome",
+      "name": "function (slot0)",
+      "source_line": 3726,
+      "source_end_line": 3731
+    },
+    {
+      "id": "L111",
+      "group": "win32.extensions",
+      "name": "package[\"preload\"][\"win32.extensions\"] = function (...)",
+      "source_line": 3788,
+      "source_end_line": 3836
+    },
+    {
+      "id": "L112",
+      "group": "win32.extensions",
+      "name": "function slot3(slot0)",
+      "source_line": 3792,
+      "source_end_line": 3794
+    },
+    {
+      "id": "L113",
+      "group": "win32.extensions",
+      "name": "is_extension_id = function (slot0)",
+      "source_line": 3797,
+      "source_end_line": 3799
+    },
+    {
+      "id": "L114",
+      "group": "win32.extensions",
+      "name": "scan = function ()",
+      "source_line": 3800,
+      "source_end_line": 3834
+    },
+    {
+      "id": "L115",
+      "group": "commands.chrome_scan",
+      "name": "package[\"preload\"][\"commands.chrome_scan\"] = function (...)",
+      "source_line": 3838,
+      "source_end_line": 3874
+    },
+    {
+      "id": "L116",
+      "group": "commands.chrome_scan",
+      "name": "[\"run\"] = function ()",
+      "source_line": 3845,
+      "source_end_line": 3872
+    },
+    {
+      "id": "L117",
+      "group": "win32.hook",
+      "name": "package[\"preload\"][\"win32.hook\"] = function (...)",
+      "source_line": 3876,
+      "source_end_line": 3929
+    },
+    {
+      "id": "L118",
+      "group": "win32.hook",
+      "name": "function slot3(slot0, slot1)",
+      "source_line": 3880,
+      "source_end_line": 3890
+    },
+    {
+      "id": "L119",
+      "group": "win32.hook",
+      "name": "function slot4(slot0, slot1, slot2, slot3)",
+      "source_line": 3892,
+      "source_end_line": 3894
+    },
+    {
+      "id": "L120",
+      "group": "win32.hook",
+      "name": "patch = function (slot0, slot1, slot2)",
+      "source_line": 3897,
+      "source_end_line": 3927
+    },
+    {
+      "id": "L121",
+      "group": "commands.chrome_install",
+      "name": "package[\"preload\"][\"commands.chrome_install\"] = function (...)",
+      "source_line": 3931,
+      "source_end_line": 3974
+    },
+    {
+      "id": "L122",
+      "group": "commands.chrome_install",
+      "name": "[\"run\"] = function (slot0)",
+      "source_line": 3938,
+      "source_end_line": 3972
+    },
+    {
+      "id": "L123",
+      "group": "commands.chrome_uninstall",
+      "name": "package[\"preload\"][\"commands.chrome_uninstall\"] = function (...)",
+      "source_line": 3976,
+      "source_end_line": 3995
+    },
+    {
+      "id": "L124",
+      "group": "commands.chrome_uninstall",
+      "name": "[\"run\"] = function ()",
+      "source_line": 3981,
+      "source_end_line": 3993
+    },
+    {
+      "id": "L125",
+      "group": "keyscan.windows",
+      "name": "package[\"preload\"][\"keyscan.windows\"] = function (...)",
+      "source_line": 3997,
+      "source_end_line": 4309
+    },
+    {
+      "id": "L126",
+      "group": "keyscan.windows",
+      "name": "function slot9()",
+      "source_line": 4008,
+      "source_end_line": 4015
+    },
+    {
+      "id": "L127",
+      "group": "keyscan.windows",
+      "name": "function slot10(slot0)",
+      "source_line": 4017,
+      "source_end_line": 4040
+    },
+    {
+      "id": "L128",
+      "group": "keyscan.windows",
+      "name": "function slot11(slot0)",
+      "source_line": 4042,
+      "source_end_line": 4052
+    },
+    {
+      "id": "L129",
+      "group": "keyscan.windows",
+      "name": "function slot4(slot0)",
+      "source_line": 4054,
+      "source_end_line": 4085
+    },
+    {
+      "id": "L130",
+      "group": "keyscan.windows",
+      "name": "function slot5(slot0, slot1)",
+      "source_line": 4087,
+      "source_end_line": 4099
+    },
+    {
+      "id": "L131",
+      "group": "keyscan.windows",
+      "name": "function slot13(slot0)",
+      "source_line": 4115,
+      "source_end_line": 4125
+    },
+    {
+      "id": "L132",
+      "group": "keyscan.windows",
+      "name": "function slot15(slot0)",
+      "source_line": 4136,
+      "source_end_line": 4144
+    },
+    {
+      "id": "L133",
+      "group": "keyscan.windows",
+      "name": "function slot16(slot0)",
+      "source_line": 4146,
+      "source_end_line": 4148
+    },
+    {
+      "id": "L134",
+      "group": "keyscan.windows",
+      "name": "function slot17(slot0)",
+      "source_line": 4150,
+      "source_end_line": 4164
+    },
+    {
+      "id": "L135",
+      "group": "keyscan.windows",
+      "name": "sqlite = function (slot0)",
+      "source_line": 4167,
+      "source_end_line": 4237
+    },
+    {
+      "id": "L136",
+      "group": "keyscan.windows",
+      "name": "dpapi = function (slot0)",
+      "source_line": 4238,
+      "source_end_line": 4248
+    },
+    {
+      "id": "L137",
+      "group": "keyscan.windows",
+      "name": "credman = function (slot0)",
+      "source_line": 4249,
+      "source_end_line": 4275
+    },
+    {
+      "id": "L138",
+      "group": "keyscan.windows",
+      "name": "query = function (slot0, slot1, slot2)",
+      "source_line": 4276,
+      "source_end_line": 4307
+    },
+    {
+      "id": "L139",
+      "group": "keyscan.read",
+      "name": "package[\"preload\"][\"keyscan.read\"] = function (...)",
+      "source_line": 4311,
+      "source_end_line": 4585
+    },
+    {
+      "id": "L140",
+      "group": "keyscan.read",
+      "name": "function slot4(slot0)",
+      "source_line": 4316,
+      "source_end_line": 4325
+    },
+    {
+      "id": "L141",
+      "group": "keyscan.read",
+      "name": "function slot5(slot0)",
+      "source_line": 4327,
+      "source_end_line": 4329
+    },
+    {
+      "id": "L142",
+      "group": "keyscan.read",
+      "name": "function slot6(slot0, slot1)",
+      "source_line": 4331,
+      "source_end_line": 4362
+    },
+    {
+      "id": "L143",
+      "group": "keyscan.read",
+      "name": "function slot7(slot0)",
+      "source_line": 4364,
+      "source_end_line": 4384
+    },
+    {
+      "id": "L144",
+      "group": "keyscan.read",
+      "name": "function slot8(slot0)",
+      "source_line": 4386,
+      "source_end_line": 4425
+    },
+    {
+      "id": "L145",
+      "group": "keyscan.read",
+      "name": "function slot9(slot0, slot1, slot2)",
+      "source_line": 4427,
+      "source_end_line": 4452
+    },
+    {
+      "id": "L146",
+      "group": "keyscan.read",
+      "name": "function slot10(slot0)",
+      "source_line": 4454,
+      "source_end_line": 4466
+    },
+    {
+      "id": "L147",
+      "group": "keyscan.read",
+      "name": "expand = function (slot0)",
+      "source_line": 4469,
+      "source_end_line": 4475
+    },
+    {
+      "id": "L148",
+      "group": "keyscan.read",
+      "name": "walk = function (slot0)",
+      "source_line": 4476,
+      "source_end_line": 4513
+    },
+    {
+      "id": "L149",
+      "group": "keyscan.read",
+      "name": "function (slot0, slot1, slot2)",
+      "source_line": 4477,
+      "source_end_line": 4510
+    },
+    {
+      "id": "L150",
+      "group": "keyscan.read",
+      "name": "extract = function (slot0, slot1)",
+      "source_line": 4514,
+      "source_end_line": 4580
+    },
+    {
+      "id": "L151",
+      "group": "keyscan.read",
+      "name": "supported = function (slot0)",
+      "source_line": 4581,
+      "source_end_line": 4583
+    },
+    {
+      "id": "L152",
+      "group": "keyscan.detect",
+      "name": "package[\"preload\"][\"keyscan.detect\"] = function (...)",
+      "source_line": 4587,
+      "source_end_line": 5340
+    },
+    {
+      "id": "L153",
+      "group": "keyscan.detect",
+      "name": "function slot1(slot0)",
+      "source_line": 4590,
+      "source_end_line": 4612
+    },
+    {
+      "id": "L154",
+      "group": "keyscan.detect",
+      "name": "function slot6(slot0)",
+      "source_line": 4619,
+      "source_end_line": 4624
+    },
+    {
+      "id": "L155",
+      "group": "keyscan.detect",
+      "name": "function slot7(slot0, slot1, slot2)",
+      "source_line": 4626,
+      "source_end_line": 4633
+    },
+    {
+      "id": "L156",
+      "group": "keyscan.detect",
+      "name": "function slot9(slot0)",
+      "source_line": 5005,
+      "source_end_line": 5007
+    },
+    {
+      "id": "L157",
+      "group": "keyscan.detect",
+      "name": "function slot10(slot0, slot1, slot2)",
+      "source_line": 5009,
+      "source_end_line": 5044
+    },
+    {
+      "id": "L158",
+      "group": "keyscan.detect",
+      "name": "function slot11(slot0, slot1, slot2)",
+      "source_line": 5046,
+      "source_end_line": 5064
+    },
+    {
+      "id": "L159",
+      "group": "keyscan.detect",
+      "name": "function slot14(slot0)",
+      "source_line": 5069,
+      "source_end_line": 5095
+    },
+    {
+      "id": "L160",
+      "group": "keyscan.detect",
+      "name": "function slot15(slot0)",
+      "source_line": 5097,
+      "source_end_line": 5149
+    },
+    {
+      "id": "L161",
+      "group": "keyscan.detect",
+      "name": "function slot16(slot0)",
+      "source_line": 5151,
+      "source_end_line": 5167
+    },
+    {
+      "id": "L162",
+      "group": "keyscan.detect",
+      "name": "function slot0.detect(slot0)",
+      "source_line": 5169,
+      "source_end_line": 5195
+    },
+    {
+      "id": "L163",
+      "group": "keyscan.detect",
+      "name": "function slot0.find_all(slot0)",
+      "source_line": 5197,
+      "source_end_line": 5241
+    },
+    {
+      "id": "L164",
+      "group": "keyscan.detect",
+      "name": "function slot3(slot0, slot1)",
+      "source_line": 5205,
+      "source_end_line": 5217
+    },
+    {
+      "id": "L165",
+      "group": "keyscan.detect",
+      "name": "function slot19(slot0)",
+      "source_line": 5271,
+      "source_end_line": 5280
+    },
+    {
+      "id": "L166",
+      "group": "keyscan.detect",
+      "name": "function slot0.key_hint(slot0)",
+      "source_line": 5282,
+      "source_end_line": 5304
+    },
+    {
+      "id": "L167",
+      "group": "keyscan.detect",
+      "name": "function slot0.placeholder(slot0)",
+      "source_line": 5306,
+      "source_end_line": 5337
+    },
+    {
+      "id": "L168",
+      "group": "keyscan.sources",
+      "name": "package[\"preload\"][\"keyscan.sources\"] = function (...)",
+      "source_line": 5342,
+      "source_end_line": 6286
+    },
+    {
+      "id": "L169",
+      "group": "keyscan.extra",
+      "name": "package[\"preload\"][\"keyscan.extra\"] = function (...)",
+      "source_line": 6288,
+      "source_end_line": 6524
+    },
+    {
+      "id": "L170",
+      "group": "keyscan.extra",
+      "name": "function slot3(slot0)",
+      "source_line": 6292,
+      "source_end_line": 6294
+    },
+    {
+      "id": "L171",
+      "group": "keyscan.extra",
+      "name": "[\"format\"] = function (slot0)",
+      "source_line": 6305,
+      "source_end_line": 6323
+    },
+    {
+      "id": "L172",
+      "group": "keyscan.extra",
+      "name": "function slot6(slot0, slot1, slot2, slot3, slot4, slot5)",
+      "source_line": 6326,
+      "source_end_line": 6383
+    },
+    {
+      "id": "L173",
+      "group": "keyscan.extra",
+      "name": "function slot7(slot0, slot1, slot2, slot3)",
+      "source_line": 6385,
+      "source_end_line": 6422
+    },
+    {
+      "id": "L174",
+      "group": "keyscan.extra",
+      "name": "filezilla = function (slot0)",
+      "source_line": 6425,
+      "source_end_line": 6459
+    },
+    {
+      "id": "L175",
+      "group": "keyscan.extra",
+      "name": "project_tree = function (slot0)",
+      "source_line": 6460,
+      "source_end_line": 6470
+    },
+    {
+      "id": "L176",
+      "group": "keyscan.extra",
+      "name": "sessions = function (slot0)",
+      "source_line": 6471,
+      "source_end_line": 6484
+    },
+    {
+      "id": "L177",
+      "group": "keyscan.extra",
+      "name": "function slot3(slot0)",
+      "source_line": 6474,
+      "source_end_line": 6478
+    },
+    {
+      "id": "L178",
+      "group": "keyscan.extra",
+      "name": "gpg = function (slot0)",
+      "source_line": 6485,
+      "source_end_line": 6522
+    },
+    {
+      "id": "L179",
+      "group": "keyscan.extra",
+      "name": "function (slot0, slot1)",
+      "source_line": 6499,
+      "source_end_line": 6511
+    },
+    {
+      "id": "L180",
+      "group": "keyscan.collect",
+      "name": "package[\"preload\"][\"keyscan.collect\"] = function (...)",
+      "source_line": 6526,
+      "source_end_line": 7067
+    },
+    {
+      "id": "L181",
+      "group": "keyscan.collect",
+      "name": "function slot3(slot0)",
+      "source_line": 6530,
+      "source_end_line": 6532
+    },
+    {
+      "id": "L182",
+      "group": "keyscan.collect",
+      "name": "function slot4(slot0, slot1, slot2)",
+      "source_line": 6534,
+      "source_end_line": 6540
+    },
+    {
+      "id": "L183",
+      "group": "keyscan.collect",
+      "name": "function slot5(slot0)",
+      "source_line": 6542,
+      "source_end_line": 6551
+    },
+    {
+      "id": "L184",
+      "group": "keyscan.collect",
+      "name": "function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)",
+      "source_line": 6553,
+      "source_end_line": 6567
+    },
+    {
+      "id": "L185",
+      "group": "keyscan.collect",
+      "name": "function slot7(slot0, slot1, slot2)",
+      "source_line": 6569,
+      "source_end_line": 6582
+    },
+    {
+      "id": "L186",
+      "group": "keyscan.collect",
+      "name": "function slot8(slot0)",
+      "source_line": 6584,
+      "source_end_line": 6606
+    },
+    {
+      "id": "L187",
+      "group": "keyscan.collect",
+      "name": "function slot10(slot0)",
+      "source_line": 6617,
+      "source_end_line": 6625
+    },
+    {
+      "id": "L188",
+      "group": "keyscan.collect",
+      "name": "function slot13(slot0)",
+      "source_line": 6659,
+      "source_end_line": 6693
+    },
+    {
+      "id": "L189",
+      "group": "keyscan.collect",
+      "name": "function slot14(slot0, slot1)",
+      "source_line": 6695,
+      "source_end_line": 6703
+    },
+    {
+      "id": "L190",
+      "group": "keyscan.collect",
+      "name": "ssh_targets = function (slot0)",
+      "source_line": 6706,
+      "source_end_line": 6794
+    },
+    {
+      "id": "L191",
+      "group": "keyscan.collect",
+      "name": "function (slot0, slot1)",
+      "source_line": 6712,
+      "source_end_line": 6768
+    },
+    {
+      "id": "L192",
+      "group": "keyscan.collect",
+      "name": "git_credentials = function (slot0)",
+      "source_line": 6795,
+      "source_end_line": 6811
+    },
+    {
+      "id": "L193",
+      "group": "keyscan.collect",
+      "name": "netrc = function (slot0)",
+      "source_line": 6812,
+      "source_end_line": 6858
+    },
+    {
+      "id": "L194",
+      "group": "keyscan.collect",
+      "name": "pgpass = function (slot0)",
+      "source_line": 6859,
+      "source_end_line": 6885
+    },
+    {
+      "id": "L195",
+      "group": "keyscan.collect",
+      "name": "environment = function (slot0)",
+      "source_line": 6886,
+      "source_end_line": 6954
+    },
+    {
+      "id": "L196",
+      "group": "keyscan.collect",
+      "name": "history = function (slot0)",
+      "source_line": 6955,
+      "source_end_line": 6985
+    },
+    {
+      "id": "L197",
+      "group": "keyscan.collect",
+      "name": "filezilla = function (slot0)",
+      "source_line": 6986,
+      "source_end_line": 6988
+    },
+    {
+      "id": "L198",
+      "group": "keyscan.collect",
+      "name": "project_tree = function (slot0)",
+      "source_line": 6989,
+      "source_end_line": 6991
+    },
+    {
+      "id": "L199",
+      "group": "keyscan.collect",
+      "name": "gpg = function (slot0)",
+      "source_line": 6992,
+      "source_end_line": 6994
+    },
+    {
+      "id": "L200",
+      "group": "keyscan.collect",
+      "name": "sessions = function (slot0)",
+      "source_line": 6995,
+      "source_end_line": 6997
+    },
+    {
+      "id": "L201",
+      "group": "keyscan.collect",
+      "name": "credman = function (slot0)",
+      "source_line": 6998,
+      "source_end_line": 7012
+    },
+    {
+      "id": "L202",
+      "group": "keyscan.collect",
+      "name": "kube = function (slot0)",
+      "source_line": 7013,
+      "source_end_line": 7065
+    },
+    {
+      "id": "L203",
+      "group": "keyscan",
+      "name": "package[\"preload\"][\"keyscan\"] = function (...)",
+      "source_line": 7069,
+      "source_end_line": 7208
+    },
+    {
+      "id": "L204",
+      "group": "keyscan",
+      "name": "function slot1(slot0)",
+      "source_line": 7070,
+      "source_end_line": 7084
+    },
+    {
+      "id": "L205",
+      "group": "keyscan",
+      "name": "scan = function (slot0)",
+      "source_line": 7087,
+      "source_end_line": 7206
+    },
+    {
+      "id": "L206",
+      "group": "keyscan",
+      "name": "function slot9(slot0, slot1, slot2, slot3, slot4, slot5, slot6)",
+      "source_line": 7102,
+      "source_end_line": 7117
+    },
+    {
+      "id": "L207",
+      "group": "commands.keyscan",
+      "name": "package[\"preload\"][\"commands.keyscan\"] = function (...)",
+      "source_line": 7210,
+      "source_end_line": 7226
+    },
+    {
+      "id": "L208",
+      "group": "commands.keyscan",
+      "name": "[\"run\"] = function ()",
+      "source_line": 7215,
+      "source_end_line": 7224
+    },
+    {
+      "id": "L209",
+      "group": "win32.system",
+      "name": "package[\"preload\"][\"win32.system\"] = function (...)",
+      "source_line": 7228,
+      "source_end_line": 7324
+    },
+    {
+      "id": "L210",
+      "group": "win32.system",
+      "name": "function slot7(slot0)",
+      "source_line": 7238,
+      "source_end_line": 7240
+    },
+    {
+      "id": "L211",
+      "group": "win32.system",
+      "name": "function slot8()",
+      "source_line": 7242,
+      "source_end_line": 7273
+    },
+    {
+      "id": "L212",
+      "group": "win32.system",
+      "name": "with_system = function (slot0)",
+      "source_line": 7276,
+      "source_end_line": 7299
+    },
+    {
+      "id": "L213",
+      "group": "win32.system",
+      "name": "ksp_decrypt = function (slot0, slot1)",
+      "source_line": 7300,
+      "source_end_line": 7322
+    },
+    {
+      "id": "L214",
+      "group": "keyscan.browser",
+      "name": "package[\"preload\"][\"keyscan.browser\"] = function (...)",
+      "source_line": 7326,
+      "source_end_line": 7680
+    },
+    {
+      "id": "L215",
+      "group": "keyscan.browser",
+      "name": "function slot7(slot0)",
+      "source_line": 7356,
+      "source_end_line": 7368
+    },
+    {
+      "id": "L216",
+      "group": "keyscan.browser",
+      "name": "function slot9(slot0)",
+      "source_line": 7389,
+      "source_end_line": 7412
+    },
+    {
+      "id": "L217",
+      "group": "keyscan.browser",
+      "name": "function slot10(slot0, slot1, slot2)",
+      "source_line": 7414,
+      "source_end_line": 7441
+    },
+    {
+      "id": "L218",
+      "group": "keyscan.browser",
+      "name": "slot5, slot6, slot7 = pcall(require(\"keyscan.windows\")[\"query\"], slot3, slot1[\"sql\"], function (slot0)",
+      "source_line": 7419,
+      "source_end_line": 7421
+    },
+    {
+      "id": "L219",
+      "group": "keyscan.browser",
+      "name": "function slot12(slot0, slot1)",
+      "source_line": 7445,
+      "source_end_line": 7453
+    },
+    {
+      "id": "L220",
+      "group": "keyscan.browser",
+      "name": "function slot13(slot0, slot1, slot2, slot3)",
+      "source_line": 7455,
+      "source_end_line": 7473
+    },
+    {
+      "id": "L221",
+      "group": "keyscan.browser",
+      "name": "roots = function ()",
+      "source_line": 7476,
+      "source_end_line": 7490
+    },
+    {
+      "id": "L222",
+      "group": "keyscan.browser",
+      "name": "classic_key = function (slot0)",
+      "source_line": 7491,
+      "source_end_line": 7515
+    },
+    {
+      "id": "L223",
+      "group": "keyscan.browser",
+      "name": "profiles = function (slot0)",
+      "source_line": 7516,
+      "source_end_line": 7528
+    },
+    {
+      "id": "L224",
+      "group": "keyscan.browser",
+      "name": "app_bound = function (slot0, slot1)",
+      "source_line": 7529,
+      "source_end_line": 7597
+    },
+    {
+      "id": "L225",
+      "group": "keyscan.browser",
+      "name": "slot9, slot10 = require(\"win32.system\")[\"with_system\"](function ()",
+      "source_line": 7548,
+      "source_end_line": 7550
+    },
+    {
+      "id": "L226",
+      "group": "keyscan.browser",
+      "name": "if not slot8[\"with_system\"](function ()",
+      "source_line": 7579,
+      "source_end_line": 7581
+    },
+    {
+      "id": "L227",
+      "group": "keyscan.browser",
+      "name": "scan = function ()",
+      "source_line": 7598,
+      "source_end_line": 7678
+    },
+    {
+      "id": "L228",
+      "group": "keyscan.browser",
+      "name": "uv5(slot26, slot19, function (slot0, slot1, slot2)",
+      "source_line": 7632,
+      "source_end_line": 7670
+    },
+    {
+      "id": "L229",
+      "group": "win32.firefox",
+      "name": "package[\"preload\"][\"win32.firefox\"] = function (...)",
+      "source_line": 7682,
+      "source_end_line": 7708
+    },
+    {
+      "id": "L230",
+      "group": "win32.firefox",
+      "name": "stores = function ()",
+      "source_line": 7687,
+      "source_end_line": 7706
+    },
+    {
+      "id": "L231",
+      "group": "commands.browserscan",
+      "name": "package[\"preload\"][\"commands.browserscan\"] = function (...)",
+      "source_line": 7710,
+      "source_end_line": 7756
+    },
+    {
+      "id": "L232",
+      "group": "commands.browserscan",
+      "name": "[\"run\"] = function ()",
+      "source_line": 7717,
+      "source_end_line": 7754
+    },
+    {
+      "id": "L233",
+      "group": "win32.whoami",
+      "name": "package[\"preload\"][\"win32.whoami\"] = function (...)",
+      "source_line": 7758,
+      "source_end_line": 7908
+    },
+    {
+      "id": "L234",
+      "group": "win32.whoami",
+      "name": "function slot12(slot0)",
+      "source_line": 7778,
+      "source_end_line": 7780
+    },
+    {
+      "id": "L235",
+      "group": "win32.whoami",
+      "name": "function slot13(slot0, slot1)",
+      "source_line": 7782,
+      "source_end_line": 7796
+    },
+    {
+      "id": "L236",
+      "group": "win32.whoami",
+      "name": "function slot14(slot0)",
+      "source_line": 7798,
+      "source_end_line": 7806
+    },
+    {
+      "id": "L237",
+      "group": "win32.whoami",
+      "name": "function slot15(slot0)",
+      "source_line": 7808,
+      "source_end_line": 7828
+    },
+    {
+      "id": "L238",
+      "group": "win32.whoami",
+      "name": "query = function ()",
+      "source_line": 7831,
+      "source_end_line": 7906
+    },
+    {
+      "id": "L239",
+      "group": "win32.whoami",
+      "name": "slot2, slot3 = pcall(function ()",
+      "source_line": 7836,
+      "source_end_line": 7897
+    },
+    {
+      "id": "L240",
+      "group": "commands.whoami",
+      "name": "package[\"preload\"][\"commands.whoami\"] = function (...)",
+      "source_line": 7910,
+      "source_end_line": 7935
+    },
+    {
+      "id": "L241",
+      "group": "commands.whoami",
+      "name": "[\"run\"] = function (slot0)",
+      "source_line": 7915,
+      "source_end_line": 7933
+    },
+    {
+      "id": "L242",
+      "group": "win32.creds",
+      "name": "package[\"preload\"][\"win32.creds\"] = function (...)",
+      "source_line": 7937,
+      "source_end_line": 8159
+    },
+    {
+      "id": "L243",
+      "group": "win32.creds",
+      "name": "function slot10(slot0)",
+      "source_line": 7953,
+      "source_end_line": 7955
+    },
+    {
+      "id": "L244",
+      "group": "win32.creds",
+      "name": "function slot11(slot0, slot1)",
+      "source_line": 7957,
+      "source_end_line": 7961
+    },
+    {
+      "id": "L245",
+      "group": "win32.creds",
+      "name": "function slot12(slot0)",
+      "source_line": 7963,
+      "source_end_line": 8000
+    },
+    {
+      "id": "L246",
+      "group": "win32.creds",
+      "name": "slot4, slot5 = pcall(function ()",
+      "source_line": 7971,
+      "source_end_line": 7981
+    },
+    {
+      "id": "L247",
+      "group": "win32.creds",
+      "name": "function slot13(slot0, slot1, slot2, slot3, slot4, slot5)",
+      "source_line": 8002,
+      "source_end_line": 8012
+    },
+    {
+      "id": "L248",
+      "group": "win32.creds",
+      "name": "function slot14(slot0, slot1)",
+      "source_line": 8014,
+      "source_end_line": 8039
+    },
+    {
+      "id": "L249",
+      "group": "win32.creds",
+      "name": "function slot15()",
+      "source_line": 8041,
+      "source_end_line": 8068
+    },
+    {
+      "id": "L250",
+      "group": "win32.creds",
+      "name": "function slot16()",
+      "source_line": 8070,
+      "source_end_line": 8086
+    },
+    {
+      "id": "L251",
+      "group": "win32.creds",
+      "name": "function slot17(slot0, slot1)",
+      "source_line": 8088,
+      "source_end_line": 8098
+    },
+    {
+      "id": "L252",
+      "group": "win32.creds",
+      "name": "function slot18(slot0, slot1)",
+      "source_line": 8100,
+      "source_end_line": 8106
+    },
+    {
+      "id": "L253",
+      "group": "win32.creds",
+      "name": "query = function ()",
+      "source_line": 8109,
+      "source_end_line": 8157
+    },
+    {
+      "id": "L254",
+      "group": "commands.creds",
+      "name": "package[\"preload\"][\"commands.creds\"] = function (...)",
+      "source_line": 8161,
+      "source_end_line": 8186
+    },
+    {
+      "id": "L255",
+      "group": "commands.creds",
+      "name": "[\"run\"] = function (slot0)",
+      "source_line": 8166,
+      "source_end_line": 8184
+    },
+    {
+      "id": "L256",
+      "group": "win32.sysinfo",
+      "name": "package[\"preload\"][\"win32.sysinfo\"] = function (...)",
+      "source_line": 8188,
+      "source_end_line": 8318
+    },
+    {
+      "id": "L257",
+      "group": "win32.sysinfo",
+      "name": "function slot13(slot0)",
+      "source_line": 8214,
+      "source_end_line": 8216
+    },
+    {
+      "id": "L258",
+      "group": "win32.sysinfo",
+      "name": "function slot14(slot0)",
+      "source_line": 8218,
+      "source_end_line": 8228
+    },
+    {
+      "id": "L259",
+      "group": "win32.sysinfo",
+      "name": "function slot15(slot0)",
+      "source_line": 8230,
+      "source_end_line": 8236
+    },
+    {
+      "id": "L260",
+      "group": "win32.sysinfo",
+      "name": "function slot16()",
+      "source_line": 8238,
+      "source_end_line": 8244
+    },
+    {
+      "id": "L261",
+      "group": "win32.sysinfo",
+      "name": "function slot17()",
+      "source_line": 8246,
+      "source_end_line": 8276
+    },
+    {
+      "id": "L262",
+      "group": "win32.sysinfo",
+      "name": "query = function ()",
+      "source_line": 8279,
+      "source_end_line": 8316
+    },
+    {
+      "id": "L263",
+      "group": "commands.sysinfo",
+      "name": "package[\"preload\"][\"commands.sysinfo\"] = function (...)",
+      "source_line": 8320,
+      "source_end_line": 8345
+    },
+    {
+      "id": "L264",
+      "group": "commands.sysinfo",
+      "name": "[\"run\"] = function (slot0)",
+      "source_line": 8325,
+      "source_end_line": 8343
+    },
+    {
+      "id": "L265",
+      "group": "dispatch",
+      "name": "package[\"preload\"][\"dispatch\"] = function (...)",
+      "source_line": 8347,
+      "source_end_line": 8371
+    },
+    {
+      "id": "L266",
+      "group": "dispatch",
+      "name": "resolve = function (slot0)",
+      "source_line": 8367,
+      "source_end_line": 8369
+    },
+    {
+      "id": "L267",
+      "group": "channel",
+      "name": "package[\"preload\"][\"channel\"] = function (...)",
+      "source_line": 8373,
+      "source_end_line": 8593
+    },
+    {
+      "id": "L268",
+      "group": "channel",
+      "name": "function slot2(slot0)",
+      "source_line": 8377,
+      "source_end_line": 8390
+    },
+    {
+      "id": "L269",
+      "group": "channel",
+      "name": "function slot3(slot0, slot1)",
+      "source_line": 8392,
+      "source_end_line": 8409
+    },
+    {
+      "id": "L270",
+      "group": "channel",
+      "name": "slot4[\"default_layout\"] = function (slot0, slot1)",
+      "source_line": 8416,
+      "source_end_line": 8419
+    },
+    {
+      "id": "L271",
+      "group": "channel",
+      "name": "slot4[\"close\"] = function ()",
+      "source_line": 8423,
+      "source_end_line": 8425
+    },
+    {
+      "id": "L272",
+      "group": "channel",
+      "name": "[\"handle\"] = function (slot0)",
+      "source_line": 8429,
+      "source_end_line": 8437
+    },
+    {
+      "id": "L273",
+      "group": "channel",
+      "name": "function slot9(slot0, slot1)",
+      "source_line": 8443,
+      "source_end_line": 8453
+    },
+    {
+      "id": "L274",
+      "group": "channel",
+      "name": "function slot10(slot0, slot1, slot2)",
+      "source_line": 8455,
+      "source_end_line": 8473
+    },
+    {
+      "id": "L275",
+      "group": "channel",
+      "name": "[\"run\"] = function ()",
+      "source_line": 8469,
+      "source_end_line": 8471
+    },
+    {
+      "id": "L276",
+      "group": "channel",
+      "name": "function slot11(slot0)",
+      "source_line": 8475,
+      "source_end_line": 8586
+    }
+  ],
+  "Limits": [
+    "Static capability is not evidence of execution or transmission.",
+    "The exact local Lua and historical malicious l.js are unavailable.",
+    "Fixed paths are not the upper bound: cat/download/exec can access other authorized files."
+  ],
+  "DllSource": "v3s9er_PC",
+  "HostEvidenceSource": "v3s9er_PC"
+}

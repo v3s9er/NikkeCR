@@ -1,0 +1,2 @@
+# Preserve package bytes so Git downloads match the SHA-256 manifests.
+* -text

@@ -1,0 +1,226 @@
+{
+    "Files":  [
+                  {
+                      "Path":  ".gitattributes",
+                      "SHA256":  "949e077ab1a55536fe357c662e67b74771c15c660ad1972fdb80be700331e8af",
+                      "Length":  79
+                  },
+                  {
+                      "Path":  ".gitignore",
+                      "SHA256":  "336edcf53043428eab51472fa0b29ecfd4e1cf94c081d17b2893be9bf1f06944",
+                      "Length":  20
+                  },
+                  {
+                      "Path":  "data/static-capabilities.json",
+                      "SHA256":  "0b6e39859f1fc4e11ff7dbd575816300d820bb567d792d7b07c503e8ef18d85c",
+                      "Length":  70075
+                  },
+                  {
+                      "Path":  "docs/VALIDATION.md",
+                      "SHA256":  "4c31dd56dec27ba3910613d9972c2dd8e1c68fd15aed9c9aa05a70b024c1f651",
+                      "Length":  9005
+                  },
+                  {
+                      "Path":  "engine/Collect-NikkeInventory.ps1",
+                      "SHA256":  "d8f717cdfaf40879e439377a8df1baa236467dc58af6b54318a069710c2d9de4",
+                      "Length":  820
+                  },
+                  {
+                      "Path":  "engine/Invoke-NikkeAftercare.ps1",
+                      "SHA256":  "71e401be516cebe36f6ed1bd9596972bcc98be28ee70e9800e49e60862ffd4d7",
+                      "Length":  8799
+                  },
+                  {
+                      "Path":  "engine/Invoke-NikkeRecovery.ps1",
+                      "SHA256":  "85c7bd42b69d1689d6cdb59748d67984040a4e187130a19e5bcea705904bb222",
+                      "Length":  28294
+                  },
+                  {
+                      "Path":  "engine/LICENSE",
+                      "SHA256":  "c549bd34d4a6d2b77c2be72cb77af798830c2d518e710797a30442601c475c4a",
+                      "Length":  1088
+                  },
+                  {
+                      "Path":  "engine/Manage-NikkeIntegrity.ps1",
+                      "SHA256":  "8959cdf3d754d80e2706f6aaff6c6071e866ce861d21991f38e9019ccb316896",
+                      "Length":  2135
+                  },
+                  {
+                      "Path":  "engine/New-CleanerTestSandbox.ps1",
+                      "SHA256":  "1a6e484776ba6c938a1109a0631409ce09ad1752bb713f8a72b6373347dd42b3",
+                      "Length":  1389
+                  },
+                  {
+                      "Path":  "engine/New-NikkeFollowUp.ps1",
+                      "SHA256":  "39827205e2cc43910a44a499bfeae1bcfd6243fe47b4b02d29f88e6898cdf4d4",
+                      "Length":  1635
+                  },
+                  {
+                      "Path":  "engine/NikkeRecovery.Aftercare.psm1",
+                      "SHA256":  "8db2aa4845bafcabcdc310840b0c28fef50b6532b3411885a809defd852b89be",
+                      "Length":  9757
+                  },
+                  {
+                      "Path":  "engine/NikkeRecovery.Core.psm1",
+                      "SHA256":  "7509f36fa4908479bdc7a486cf9bc67388c33f73029ab315fc1f943aefacbbb8",
+                      "Length":  14323
+                  },
+                  {
+                      "Path":  "engine/NikkeRecovery.FollowUp.psm1",
+                      "SHA256":  "0ed1a959b6f4ff5df8bd5b23a8ebbddecf362b88c915541efab0b0fdc17aef9f",
+                      "Length":  7125
+                  },
+                  {
+                      "Path":  "engine/NikkeRecovery.Integrity.psm1",
+                      "SHA256":  "c9a65e6063c7f10c846043828fceaf21f4f9251165d07edc0d0a4b9c17053f51",
+                      "Length":  16833
+                  },
+                  {
+                      "Path":  "engine/NikkeRecovery.Lua.psm1",
+                      "SHA256":  "b0f2fc440ccb93bf19b32a34faaf28b28ec0fd01dd7de97e9a4d30d41f610ca8",
+                      "Length":  5650
+                  },
+                  {
+                      "Path":  "engine/NikkeRecovery.PostRecovery.psm1",
+                      "SHA256":  "e9aaeb7137da8fe890852446faa6c01b32b8c16a367c303a1a32d88aa389e556",
+                      "Length":  19381
+                  },
+                  {
+                      "Path":  "engine/PACKAGE-SHA256.json",
+                      "SHA256":  "4822f84f2de3e00769a8cb6dac5e2a81e53d94e0cdae0eabd548a21924370aab",
+                      "Length":  6558
+                  },
+                  {
+                      "Path":  "engine/README.md",
+                      "SHA256":  "ac0d3d168c3a5e4ce6c4309a580fbb2a73cb674773b4141db2289c89cb137150",
+                      "Length":  23004
+                  },
+                  {
+                      "Path":  "engine/README-ko.md",
+                      "SHA256":  "79ebebb014a2fb9675886d6cf9b9f59d780856a6639b04372af891a4c61b8692",
+                      "Length":  25268
+                  },
+                  {
+                      "Path":  "engine/Register-NikkeAftercare.ps1",
+                      "SHA256":  "a807722c0b5fa121b78e19477acda40a5ed52a6be735850db13222286851f514",
+                      "Length":  3295
+                  },
+                  {
+                      "Path":  "engine/Run-Aftercare.cmd",
+                      "SHA256":  "3db0c117eae5e03516e16ad79ebc89911349c5c3e9f149e790e466332cbedb48",
+                      "Length":  259
+                  },
+                  {
+                      "Path":  "engine/Run-Audit.cmd",
+                      "SHA256":  "4fd34613a04b96569981044716cc0813a3c414015afad2f49c2faa200734ea5d",
+                      "Length":  275
+                  },
+                  {
+                      "Path":  "engine/Run-Repair.cmd",
+                      "SHA256":  "0becd12f3d2aa99167ddec0f3e99579e8334ae15064e2ccab0485ce55a5c273d",
+                      "Length":  424
+                  },
+                  {
+                      "Path":  "engine/Run-Verify.cmd",
+                      "SHA256":  "8a5cc0df968f9823f3ba60852dbecaa845a2abad9f6d35ae7096fe1c01394c43",
+                      "Length":  276
+                  },
+                  {
+                      "Path":  "engine/Start-NikkeRecovery.ps1",
+                      "SHA256":  "bd559fcc7ddb38d4b7c2d4119c2c639beca659b188ac8e2b8fe0fe9c886c9dec",
+                      "Length":  3149
+                  },
+                  {
+                      "Path":  "engine/Test-NikkeAftercare.ps1",
+                      "SHA256":  "b23dea17c9db8f7dab2d6dc8512198d5a3e3cf7282e672fe0079a3a7fdc1f303",
+                      "Length":  14924
+                  },
+                  {
+                      "Path":  "engine/Test-NikkeExtended.ps1",
+                      "SHA256":  "f5bc4ba436950f387bf0eb281802b6a37f3af0f6cf4e445c5795e7f91dff921a",
+                      "Length":  11044
+                  },
+                  {
+                      "Path":  "engine/Test-NikkePackage.ps1",
+                      "SHA256":  "a44071fa67c3b28ee1d6475afcff403206cc1e30b664f9a835ef8dd5308364c0",
+                      "Length":  1791
+                  },
+                  {
+                      "Path":  "engine/Test-NikkeRecovery.ps1",
+                      "SHA256":  "7cd46652018db8f7bdb356888166353d42faf270246b49f5111e4360d2446ccd",
+                      "Length":  12453
+                  },
+                  {
+                      "Path":  "engine/Test-SandboxIntegration.ps1",
+                      "SHA256":  "17d99584b395465b682c63dad2e8fec50b162d6324f1fee19ab036887059f0a9",
+                      "Length":  3522
+                  },
+                  {
+                      "Path":  "engine/VALIDATION.md",
+                      "SHA256":  "bfa7b81b1836235644e060ef3cec9571a5f3f2fa000eb5928332b1a3d7c3e7cd",
+                      "Length":  3592
+                  },
+                  {
+                      "Path":  "LICENSE",
+                      "SHA256":  "c549bd34d4a6d2b77c2be72cb77af798830c2d518e710797a30442601c475c4a",
+                      "Length":  1088
+                  },
+                  {
+                      "Path":  "NikkeCR.exe",
+                      "SHA256":  "9af6cfc8b793c98ecd29119e8441e166d5352c64694c64ac5c08cc81adcf416b",
+                      "Length":  36352
+                  },
+                  {
+                      "Path":  "README.en.md",
+                      "SHA256":  "3b421088d50f383ce46f8c820e420d645deb0702d54e09d1b241a7b0ec1aac9e",
+                      "Length":  9578
+                  },
+                  {
+                      "Path":  "README.md",
+                      "SHA256":  "a070383395dfdcb54fde775240b5b42f739e230817ed0ef28e988ca80d0caac0",
+                      "Length":  11341
+                  },
+                  {
+                      "Path":  "scripts/Build.ps1",
+                      "SHA256":  "aca7d1bee01f3e12f030863ca37ad6c04908afe1411a151e40125ebf2bfa60e2",
+                      "Length":  3001
+                  },
+                  {
+                      "Path":  "scripts/Invoke-NikkeCR.ps1",
+                      "SHA256":  "7548b2c81ad3c68967e06c0d1cac5181f6c9f6a7474f899d80ab34cb6352de35",
+                      "Length":  13483
+                  },
+                  {
+                      "Path":  "scripts/NikkeCR.Common.psm1",
+                      "SHA256":  "7fc51015e41e1f45d2a9c115ce11c9a63bf7cd92c2de673badcbc85b9fe972fd",
+                      "Length":  6191
+                  },
+                  {
+                      "Path":  "scripts/NikkeCR.Exposure.psm1",
+                      "SHA256":  "bbd6abe8e4986de59d1d961a24c30af29371a3fa7920199fad3cec66ba4c1c79",
+                      "Length":  7445
+                  },
+                  {
+                      "Path":  "scripts/NikkeCR.History.psm1",
+                      "SHA256":  "16c6d47b13aa13fca87456bd7e92488ec0cdd0f520a55362f8f10ca453d9a172",
+                      "Length":  9316
+                  },
+                  {
+                      "Path":  "scripts/NikkeCR.Settings.psm1",
+                      "SHA256":  "72bed778406061af3f39b1c9fb6b6172779c6a616d0990f6b19d74be22108176",
+                      "Length":  6036
+                  },
+                  {
+                      "Path":  "src/NikkeCR.cs",
+                      "SHA256":  "54a84f9927e3e67fe62fbc46afedcd8dffb4d0b7207d111e60dbfcd75c3c3e7c",
+                      "Length":  31121
+                  },
+                  {
+                      "Path":  "tests/Test-NikkeCR.ps1",
+                      "SHA256":  "1841a989eb164bb6c8996ba27377205295ed62e2d3fba9d273c679df9220d175",
+                      "Length":  13648
+                  }
+              ],
+    "Version":  "0.4.4-preview",
+    "PublisherAuthenticated":  false
+}

@@ -1,0 +1,140 @@
+{
+    "Version":  "0.3.1-preview",
+    "Files":  [
+                  {
+                      "File":  "Collect-NikkeInventory.ps1",
+                      "SHA256":  "d8f717cdfaf40879e439377a8df1baa236467dc58af6b54318a069710c2d9de4",
+                      "Bytes":  820
+                  },
+                  {
+                      "File":  "Invoke-NikkeAftercare.ps1",
+                      "SHA256":  "71e401be516cebe36f6ed1bd9596972bcc98be28ee70e9800e49e60862ffd4d7",
+                      "Bytes":  8799
+                  },
+                  {
+                      "File":  "Invoke-NikkeRecovery.ps1",
+                      "SHA256":  "85c7bd42b69d1689d6cdb59748d67984040a4e187130a19e5bcea705904bb222",
+                      "Bytes":  28294
+                  },
+                  {
+                      "File":  "LICENSE",
+                      "SHA256":  "c549bd34d4a6d2b77c2be72cb77af798830c2d518e710797a30442601c475c4a",
+                      "Bytes":  1088
+                  },
+                  {
+                      "File":  "Manage-NikkeIntegrity.ps1",
+                      "SHA256":  "8959cdf3d754d80e2706f6aaff6c6071e866ce861d21991f38e9019ccb316896",
+                      "Bytes":  2135
+                  },
+                  {
+                      "File":  "New-CleanerTestSandbox.ps1",
+                      "SHA256":  "1a6e484776ba6c938a1109a0631409ce09ad1752bb713f8a72b6373347dd42b3",
+                      "Bytes":  1389
+                  },
+                  {
+                      "File":  "New-NikkeFollowUp.ps1",
+                      "SHA256":  "39827205e2cc43910a44a499bfeae1bcfd6243fe47b4b02d29f88e6898cdf4d4",
+                      "Bytes":  1635
+                  },
+                  {
+                      "File":  "NikkeRecovery.Aftercare.psm1",
+                      "SHA256":  "8db2aa4845bafcabcdc310840b0c28fef50b6532b3411885a809defd852b89be",
+                      "Bytes":  9757
+                  },
+                  {
+                      "File":  "NikkeRecovery.Core.psm1",
+                      "SHA256":  "7509f36fa4908479bdc7a486cf9bc67388c33f73029ab315fc1f943aefacbbb8",
+                      "Bytes":  14323
+                  },
+                  {
+                      "File":  "NikkeRecovery.FollowUp.psm1",
+                      "SHA256":  "0ed1a959b6f4ff5df8bd5b23a8ebbddecf362b88c915541efab0b0fdc17aef9f",
+                      "Bytes":  7125
+                  },
+                  {
+                      "File":  "NikkeRecovery.Integrity.psm1",
+                      "SHA256":  "c9a65e6063c7f10c846043828fceaf21f4f9251165d07edc0d0a4b9c17053f51",
+                      "Bytes":  16833
+                  },
+                  {
+                      "File":  "NikkeRecovery.Lua.psm1",
+                      "SHA256":  "b0f2fc440ccb93bf19b32a34faaf28b28ec0fd01dd7de97e9a4d30d41f610ca8",
+                      "Bytes":  5650
+                  },
+                  {
+                      "File":  "NikkeRecovery.PostRecovery.psm1",
+                      "SHA256":  "e9aaeb7137da8fe890852446faa6c01b32b8c16a367c303a1a32d88aa389e556",
+                      "Bytes":  19381
+                  },
+                  {
+                      "File":  "README.md",
+                      "SHA256":  "ac0d3d168c3a5e4ce6c4309a580fbb2a73cb674773b4141db2289c89cb137150",
+                      "Bytes":  23004
+                  },
+                  {
+                      "File":  "README-ko.md",
+                      "SHA256":  "79ebebb014a2fb9675886d6cf9b9f59d780856a6639b04372af891a4c61b8692",
+                      "Bytes":  25268
+                  },
+                  {
+                      "File":  "Register-NikkeAftercare.ps1",
+                      "SHA256":  "a807722c0b5fa121b78e19477acda40a5ed52a6be735850db13222286851f514",
+                      "Bytes":  3295
+                  },
+                  {
+                      "File":  "Run-Aftercare.cmd",
+                      "SHA256":  "3db0c117eae5e03516e16ad79ebc89911349c5c3e9f149e790e466332cbedb48",
+                      "Bytes":  259
+                  },
+                  {
+                      "File":  "Run-Audit.cmd",
+                      "SHA256":  "4fd34613a04b96569981044716cc0813a3c414015afad2f49c2faa200734ea5d",
+                      "Bytes":  275
+                  },
+                  {
+                      "File":  "Run-Repair.cmd",
+                      "SHA256":  "0becd12f3d2aa99167ddec0f3e99579e8334ae15064e2ccab0485ce55a5c273d",
+                      "Bytes":  424
+                  },
+                  {
+                      "File":  "Run-Verify.cmd",
+                      "SHA256":  "8a5cc0df968f9823f3ba60852dbecaa845a2abad9f6d35ae7096fe1c01394c43",
+                      "Bytes":  276
+                  },
+                  {
+                      "File":  "Start-NikkeRecovery.ps1",
+                      "SHA256":  "bd559fcc7ddb38d4b7c2d4119c2c639beca659b188ac8e2b8fe0fe9c886c9dec",
+                      "Bytes":  3149
+                  },
+                  {
+                      "File":  "Test-NikkeAftercare.ps1",
+                      "SHA256":  "b23dea17c9db8f7dab2d6dc8512198d5a3e3cf7282e672fe0079a3a7fdc1f303",
+                      "Bytes":  14924
+                  },
+                  {
+                      "File":  "Test-NikkeExtended.ps1",
+                      "SHA256":  "f5bc4ba436950f387bf0eb281802b6a37f3af0f6cf4e445c5795e7f91dff921a",
+                      "Bytes":  11044
+                  },
+                  {
+                      "File":  "Test-NikkePackage.ps1",
+                      "SHA256":  "a44071fa67c3b28ee1d6475afcff403206cc1e30b664f9a835ef8dd5308364c0",
+                      "Bytes":  1791
+                  },
+                  {
+                      "File":  "Test-NikkeRecovery.ps1",
+                      "SHA256":  "7cd46652018db8f7bdb356888166353d42faf270246b49f5111e4360d2446ccd",
+                      "Bytes":  12453
+                  },
+                  {
+                      "File":  "Test-SandboxIntegration.ps1",
+                      "SHA256":  "17d99584b395465b682c63dad2e8fec50b162d6324f1fee19ab036887059f0a9",
+                      "Bytes":  3522
+                  },
+                  {
+                      "File":  "VALIDATION.md",
+                      "SHA256":  "bfa7b81b1836235644e060ef3cec9571a5f3f2fa000eb5928332b1a3d7c3e7cd",
+                      "Bytes":  3592
+                  }
+              ]
+}
