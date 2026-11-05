@@ -71,6 +71,7 @@ NIKKE PC 런처 침해 사고의 알려진 흔적을 탐지하고, 근거가 있
 
 - **[MotherSphere](https://github.com/MotherSphere)** — [NIKKE PC 런처 침해 분석 Gist](https://gist.github.com/MotherSphere/d6c049a09ba8ac3085c51ee9df24a4e5)의 공격 흐름·공개 지표와 후속 조사 내용을 참고했습니다.
 - **[MotherSphere / NIKKE-Launcher-Check](https://github.com/MotherSphere/NIKKE-Launcher-Check)** — 읽기 전용 탐지 범위를 비교할 때 참고했습니다. 해당 프로그램 코드를 이 MIT 프로젝트에 복사하지 않았습니다.
+- **[zbeosf의 Gist 댓글](https://gist.github.com/MotherSphere/d6c049a09ba8ac3085c51ee9df24a4e5?permalink_comment_id=6456219#gistcomment-6456219)** — 공개 댓글에 게시된 Lua 빌드의 감염 지표와 명령 목록을 참고했습니다.
 - **v3s9er_PC** — 해당 PC에서 직접 확보한 DLL, 런처 캐시·로그, 레지스트리 및 시스템 기록과 이를 대조한 독립 분석의 출처입니다. 원본과 개인 조사 기록은 배포하지 않습니다.
 
 출처 표시는 기여 범위를 밝히는 것이며 악성코드 제작자를 뜻하지 않습니다.

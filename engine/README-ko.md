@@ -261,6 +261,7 @@ Windows 작업 스케줄러가 예약 XML을 유효하다고 확인했으며, �
 
 - **[MotherSphere](https://github.com/MotherSphere)** — [NIKKE PC 런처 침해 분석 Gist](https://gist.github.com/MotherSphere/d6c049a09ba8ac3085c51ee9df24a4e5)의 작성자입니다. 공격 흐름, 감염 지표와 댓글의 후속 조사 내용을 참고했습니다.
 - **[MotherSphere / NIKKE-Launcher-Check](https://github.com/MotherSphere/NIKKE-Launcher-Check)** — Gist에서 안내하는 읽기 전용 탐지 도구입니다. 탐지 범위와 보고 방식을 비교할 때 참고했습니다.
+- **[zbeosf의 Gist 댓글](https://gist.github.com/MotherSphere/d6c049a09ba8ac3085c51ee9df24a4e5?permalink_comment_id=6456219#gistcomment-6456219)** — 공개 댓글에 게시된 Lua 빌드의 감염 지표와 명령 목록을 참고했습니다.
 - **[NIKKE / Level Infinite](https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7)** — 공식 수동 점검 안내의 경로와 파일 크기 조건을 대조했습니다.
 - **[Microsoft Task Scheduler](https://learn.microsoft.com/en-us/windows/win32/taskschd/taskfolder-registertask)** — 예약 설정의 등록 없는 유효성 검증에 참고했습니다. 파일 교체는 [.NET File.Replace 문서](https://learn.microsoft.com/en-us/dotnet/api/system.io.file.replace)를 참고했습니다.
 - **v3s9er_PC** — 직접 확보한 DLL, 런처 캐시·로그, 레지스트리 및 시스템 기록과 이를 대조한 독립 분석의 출처입니다. 개인 조사 기록과 악성 원본은 패키지에 포함하지 않습니다.

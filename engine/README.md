@@ -261,6 +261,7 @@ The tool has no remote upload, telemetry, automatic update, or malware-execution
 
 - **[MotherSphere](https://github.com/MotherSphere)** — author of the [NIKKE PC launcher compromise Gist](https://gist.github.com/MotherSphere/d6c049a09ba8ac3085c51ee9df24a4e5). The attack-chain analysis, indicators, and follow-up investigations in the comments informed this work.
 - **[MotherSphere / NIKKE-Launcher-Check](https://github.com/MotherSphere/NIKKE-Launcher-Check)** — the read-only detection tool linked from the Gist, consulted when comparing detection scope and reporting behavior.
+- **[zbeosf's Gist comment](https://gist.github.com/MotherSphere/d6c049a09ba8ac3085c51ee9df24a4e5?permalink_comment_id=6456219#gistcomment-6456219)** — public indicators and the command list for a Lua build were used as references.
 - **[NIKKE / Level Infinite](https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7)** — the official manual security-check notice used to compare paths and the file-size review condition.
 - **[Microsoft Task Scheduler](https://learn.microsoft.com/en-us/windows/win32/taskschd/taskfolder-registertask)** — documentation for validating task definitions without registration. File replacement also follows the [.NET File.Replace documentation](https://learn.microsoft.com/en-us/dotnet/api/system.io.file.replace).
 - **v3s9er_PC** — source of the directly recovered DLL, launcher caches and logs, registry and system records, and their independent analysis. Personal investigation records and malware originals are excluded.

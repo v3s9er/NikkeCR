@@ -87,18 +87,18 @@
                   },
                   {
                       "Path":  "engine/PACKAGE-SHA256.json",
-                      "SHA256":  "4822f84f2de3e00769a8cb6dac5e2a81e53d94e0cdae0eabd548a21924370aab",
+                      "SHA256":  "fa62dd2eaedf3cc24dee0e618b936049fe5e17802a3a52e0fc49f57c4dda6072",
                       "Length":  6558
                   },
                   {
                       "Path":  "engine/README.md",
-                      "SHA256":  "ac0d3d168c3a5e4ce6c4309a580fbb2a73cb674773b4141db2289c89cb137150",
-                      "Length":  23004
+                      "SHA256":  "c64f0d73913601e1e9c2c4cea3884303365b2ecc8c3477a367bee9c607a69230",
+                      "Length":  23238
                   },
                   {
                       "Path":  "engine/README-ko.md",
-                      "SHA256":  "79ebebb014a2fb9675886d6cf9b9f59d780856a6639b04372af891a4c61b8692",
-                      "Length":  25268
+                      "SHA256":  "e9c6d86b6ab20be29ee88e0b4eeb467cf45f6bab1a1528da380ab0bf22f1fa35",
+                      "Length":  25517
                   },
                   {
                       "Path":  "engine/Register-NikkeAftercare.ps1",
@@ -172,13 +172,13 @@
                   },
                   {
                       "Path":  "README.en.md",
-                      "SHA256":  "3b421088d50f383ce46f8c820e420d645deb0702d54e09d1b241a7b0ec1aac9e",
-                      "Length":  9578
+                      "SHA256":  "8f9f6ba9cd03feebc268b2493e5f849113fae23ce4c2394c801c6b39543e39b8",
+                      "Length":  9813
                   },
                   {
                       "Path":  "README.md",
-                      "SHA256":  "a070383395dfdcb54fde775240b5b42f739e230817ed0ef28e988ca80d0caac0",
-                      "Length":  11341
+                      "SHA256":  "5539320a22d8012310b70d37d13e6e86b64b803b462f0583738045ef3ece601a",
+                      "Length":  11591
                   },
                   {
                       "Path":  "scripts/Build.ps1",

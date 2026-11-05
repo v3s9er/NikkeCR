@@ -68,13 +68,13 @@
                   },
                   {
                       "File":  "README.md",
-                      "SHA256":  "ac0d3d168c3a5e4ce6c4309a580fbb2a73cb674773b4141db2289c89cb137150",
-                      "Bytes":  23004
+                      "SHA256":  "c64f0d73913601e1e9c2c4cea3884303365b2ecc8c3477a367bee9c607a69230",
+                      "Bytes":  23238
                   },
                   {
                       "File":  "README-ko.md",
-                      "SHA256":  "79ebebb014a2fb9675886d6cf9b9f59d780856a6639b04372af891a4c61b8692",
-                      "Bytes":  25268
+                      "SHA256":  "e9c6d86b6ab20be29ee88e0b4eeb467cf45f6bab1a1528da380ab0bf22f1fa35",
+                      "Bytes":  25517
                   },
                   {
                       "File":  "Register-NikkeAftercare.ps1",

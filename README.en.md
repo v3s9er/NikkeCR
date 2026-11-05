@@ -71,6 +71,7 @@ A filename or size alone does not identify the specimen. Raw malware and persona
 
 - **[MotherSphere](https://github.com/MotherSphere)** — [NIKKE PC launcher compromise Gist](https://gist.github.com/MotherSphere/d6c049a09ba8ac3085c51ee9df24a4e5), public indicators, attack-chain documentation and follow-up findings.
 - **[MotherSphere / NIKKE-Launcher-Check](https://github.com/MotherSphere/NIKKE-Launcher-Check)** — consulted when comparing read-only detection scope. Its code was not copied into this MIT project.
+- **[zbeosf's Gist comment](https://gist.github.com/MotherSphere/d6c049a09ba8ac3085c51ee9df24a4e5?permalink_comment_id=6456219#gistcomment-6456219)** — public indicators and the command list for a Lua build were used as references.
 - **v3s9er_PC** — source of the directly recovered DLL, launcher caches and logs, registry and system records, and the independent analysis correlating them. Originals and personal investigation records are not distributed.
 
 Attribution identifies contributions, not malware authorship.
